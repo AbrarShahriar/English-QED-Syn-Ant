@@ -8,6 +8,7 @@ select(".next").addEventListener("click", renderQuestion)
 function renderQuestion() {
   select(".options").innerHTML = ""
   select(".question").innerText = ""
+  select(".next").disabled = true
   
   let randomType = Math.round(Math.random())
   let newQuestion = generateQuestion(randomType ? "synonym" : "antonym")
