@@ -10,10 +10,14 @@ export const generateQuestion = type => {
   
   let randomI = random(0,4)
 
+  let commons = {
+    synonyms: selectedWord.synonyms,
+    antonyms: selectedWord.antonyms
+  }
   
   switch (type) {
     case "synonym":
-      title = `What is the synonym of the word "${selectedWord.main_word}?"`
+      title = `What is the synonym of the word "${selectedWord.main_word.toUpperCase()}?"`
       
       options[randomI] = {
         label: selectedWord.synonyms[random(0, selectedWord.synonyms.length)],
@@ -32,7 +36,7 @@ export const generateQuestion = type => {
       break;
     
     case "antonym":
-      title = `What is the antonym of the word "${selectedWord.main_word}?"`
+      title = `What is the antonym of the word "${selectedWord.main_word.toUpperCase()}?"`
       
       options[randomI] = {
         label: selectedWord.antonyms[random(0, selectedWord.antonyms.length)],
@@ -54,6 +58,6 @@ export const generateQuestion = type => {
   }
   
   return {
-    title, options
+    title, options, commons
   }
 } 

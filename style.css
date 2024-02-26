@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
 body {
     font-size: 15pt;
     margin: 0;
@@ -6,20 +8,25 @@ body {
     -moz-box-sizing: border-box;
     box-sizing: border-box;
     width: 100%;
+    font-family: "Rubik";
+    background: rgb(51, 51, 51);
 }
 
 .question {
-  margin-bottom: 50px;
+  margin-bottom: 30px;
+  line-height: 32px;
+  color: white;
 }
 
 .quiz {
   width: 90%;
   margin: auto;
   padding: 10px;
+  
 }
 
 .options {
-  display: flex;
+ display: flex;
  flex-direction: column;
  gap: 20px;
 }
@@ -38,7 +45,7 @@ body {
   color: white;
   border: none;
   text-align: left;
-  font-size: 18px;
+  font-size: 20px;
   text-transform: capitalize;
   border-radius: 5px;
 }
@@ -49,12 +56,60 @@ body {
 }
 
 .next {
+  position: relative;
   background: #49C0CA;
   width: 50%;
   border: none;
   margin-left: 50%;
   padding: 17px;
-  font-size: 18px;
+  font-size: 20px;
   font-weight: bold;
   border-radius: 10px;
+  color: white;
+}
+
+.next:disabled, .next[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.helper {
+  width: 90%;
+  margin: 40px auto 0 auto;
+  color: white;
+  display: flex;
+  gap: 10px;
+}
+
+.word_container {
+  background-color: gray;
+  padding: 15px;
+  border-radius: 10px;
+  flex: 0.5;
+  text-transform: capitalize;
+}
+
+.word_container.hide {
+  display: none;
+}
+
+.word_container > .title {
+  font-weight: bold;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  background: gray;
+  padding: 5px;
+  margin-top: auto;
+  width: 100%;
+  text-align: center;
+  color: #E4E4E4;
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
 }
