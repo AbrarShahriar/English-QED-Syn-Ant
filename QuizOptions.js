@@ -1,7 +1,7 @@
-import { createEl, select } from "./util.js"
+import { createEl, select, increaseGotRight } from "./util.js"
 
 
-export default function QuizOption(generatedOptions, commons) {
+export default function QuizOption(generatedOptions, commons, gotRight) {
   let options = []
   let parent = select(".options")
   
@@ -14,6 +14,8 @@ export default function QuizOption(generatedOptions, commons) {
     div.addEventListener("click", () => {
         if (!generatedOptions[i].isAnswer) {
           div.classList.add("_wrong")
+        } else {
+          increaseGotRight()
         }
 
         generatedOptions.forEach((option, j) => {

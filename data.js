@@ -2037,7 +2037,309 @@ const data = [
   "bangla_meaning": "অথ থহীে কথা ব া",
   "synonyms": ["Chatter", "Talk nonsense"],
   "antonyms": ["Speak clearly", "Communicate"]
-}
+},
+
+  {
+    "main_word": "jam-packed",
+    "bangla_meaning": "ঠাসা",
+    "synonyms": [
+      "Crowded",
+      "full"
+    ],
+    "antonyms": [
+      "Empty",
+      "spacious"
+    ]
+  },
+  {
+    "main_word": "jeopardize",
+    "bangla_meaning": "ডবপন্ন করা",
+    "synonyms": [
+      "Endanger",
+      "put at risk"
+    ],
+    "antonyms": [
+      "Protect",
+      "secure"
+    ]
+  },
+  {
+    "main_word": "jerk",
+    "bangla_meaning": "ক্ষঠ া",
+    "synonyms": [
+      "Tug",
+      "yank"
+    ],
+    "antonyms": [
+      "Smooth movement",
+      "gentle touch"
+    ]
+  },
+  {
+    "main_word": "jester",
+    "bangla_meaning": "ঠাট্টাডবি",
+    "synonyms": [
+      "Clown",
+      "entertainer"
+    ],
+    "antonyms": [
+      "Solemn figure",
+      "serious person"
+    ]
+  },
+  {
+    "main_word": "jeweler",
+    "bangla_meaning": "রত্ন বযবসায়ী",
+    "synonyms": [
+      "Gemstone dealer",
+      "jeweler"
+    ],
+    "antonyms": [
+      "Poor",
+      "beggar"
+    ]
+  },
+  {
+    "main_word": "jiggle",
+    "bangla_meaning": "কম্পে",
+    "synonyms": [
+      "Shake",
+      "vibrate"
+    ],
+    "antonyms": [
+      "Stand still",
+      "be stable"
+    ]
+  },
+  {
+    "main_word": "jogging",
+    "bangla_meaning": "ধীর গডতত্রত ক্ষিৌ়িাত্রো",
+    "synonyms": [
+      "Running at a slow pace"
+    ],
+    "antonyms": [
+      "Standing still",
+      "walking"
+    ]
+  },
+  {
+    "main_word": "join hands",
+    "bangla_meaning": "হাত ধরাধডর করা",
+    "synonyms": [
+      "To unite",
+      "cooperate"
+    ],
+    "antonyms": [
+      "Separate",
+      "oppose"
+    ]
+  },
+  {
+    "main_word": "jolting ride",
+    "bangla_meaning": "ঝাাঁকু ডে ডিত্রয় চ া",
+    "synonyms": [
+      "A rough or bumpy ride"
+    ],
+    "antonyms": [
+      "Smooth ride",
+      "comfortable journey"
+    ]
+  },
+  {
+    "main_word": "jot down",
+    "bangla_meaning": "সংত্রেত্রপ ড েুে",
+    "synonyms": [
+      "Write briefly",
+      "make a note"
+    ],
+    "antonyms": [
+      "Forget",
+      "lose track"
+    ]
+  },
+  {
+    "main_word": "joust with words",
+    "bangla_meaning": "শব্দ ডিত্রয় ়িাই করা",
+    "synonyms": [
+      "Engage in a verbal battle"
+    ],
+    "antonyms": [
+      "Agree",
+      "cooperate"
+    ]
+  },
+  {
+    "main_word": "jaunt",
+    "bangla_meaning": "ভ্রমর্",
+    "synonyms": [
+      "Trip",
+      "Excursion"
+    ],
+    "antonyms": [
+      "Confinement",
+      "Restriction"
+    ]
+  },
+  {
+    "main_word": "jaunty",
+    "bangla_meaning": "উচ্ছ",
+    "synonyms": [
+      "Cheerful",
+      "Brisk"
+    ],
+    "antonyms": [
+      "Gloomy",
+      "Depressed"
+    ]
+  },
+  {
+    "main_word": "javelin",
+    "bangla_meaning": "বশ থা",
+    "synonyms": [
+      "Spear",
+      "Dart"
+    ],
+    "antonyms": [
+      "Shield",
+      "Protection"
+    ]
+  },
+  {
+    "main_word": "jeopardy",
+    "bangla_meaning": "ঝুাঁ ডক",
+    "synonyms": [
+      "Danger",
+      "Risk"
+    ],
+    "antonyms": [
+      "Safety",
+      "Security"
+    ]
+  },
+  {
+    "main_word": "jest",
+    "bangla_meaning": "ঠাট্টা",
+    "synonyms": [
+      "Joke",
+      "Prank"
+    ],
+    "antonyms": [
+      "Seriousness",
+      "Earnestness"
+    ]
+  },
+  {
+    "main_word": "jettison",
+    "bangla_meaning": "বাডত",
+    "synonyms": [
+      "Discard",
+      "Throw away"
+    ],
+    "antonyms": [
+      "Preserve",
+      "Keep"
+    ]
+  },
+  {
+    "main_word": "jewel",
+    "bangla_meaning": "রত্ন",
+    "synonyms": [
+      "Gemstone",
+      "Treasure"
+    ],
+    "antonyms": [
+      "Trash",
+      "Rubbish"
+    ]
+  },
+  {
+    "main_word": "jingoistic",
+    "bangla_meaning": "চরমপন্থী",
+    "synonyms": [
+      "Nationalistic",
+      "Chauvinistic"
+    ],
+    "antonyms": [
+      "Tolerant",
+      "Open-minded"
+    ]
+  },
+  {
+    "main_word": "jittery",
+    "bangla_meaning": "উডবগ্ন",
+    "synonyms": [
+      "Nervous",
+      "Anxious"
+    ],
+    "antonyms": [
+      "Calm",
+      "Relaxed"
+    ]
+  },
+  {
+    "main_word": "job",
+    "bangla_meaning": "কাজ্",
+    "synonyms": [
+      "Work",
+      "Occupation"
+    ],
+    "antonyms": [
+      "Unemployment",
+      "Leisure"
+    ]
+  },
+  {
+    "main_word": "jockey",
+    "bangla_meaning": "ক্ষঘা়িসওয়ার",
+    "synonyms": [
+      "Horse rider",
+      "Racetracker"
+    ],
+    "antonyms": [
+      "Pedestrian",
+      "Walker"
+    ]
+  },
+  {
+    "main_word": "jocose",
+    "bangla_meaning": "রডসক",
+    "synonyms": [
+      "Humorous",
+      "Jovial"
+    ],
+    "antonyms": [
+      "Serious",
+      "Grim"
+    ]
+  },
+  {
+    "main_word": "jocular",
+    "bangla_meaning": "মজ্ার",
+    "synonyms": [
+      "Funny",
+      "Amusing"
+    ],
+    "antonyms": [
+      "Dull",
+      "Boring"
+    ]
+  },
+  {
+    "main_word": "jog",
+    "bangla_meaning": "ক্ষিৌ়িাত্রো",
+    "synonyms": [
+      "Run slowly",
+      "Trot"
+    ],
+    "antonyms": [
+      "Rest",
+      "Stop"
+    ]
+  },
+
+
+
 ]
 
 export default data
+

@@ -1,5 +1,11 @@
 import data from "./data.js"
 
+let gotRight = 0
+export const getGotRight = () => gotRight
+export const increaseGotRight = () => {
+  gotRight++
+  return gotRight
+}
 export const createEl = el => document.createElement(el)
 export const select = el => document.querySelector(el)
 export const random = (min=0, max=100) => Math.floor(Math.random() * max)
