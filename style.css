@@ -41,6 +41,18 @@ header {
   color: white;
 }
 
+.syn-color {
+  color: limegreen;
+}
+
+.ant-color {
+  color: orangered;
+}
+
+.word-color {
+  color: skyblue;
+}
+
 .quiz {
   width: 90%;
   margin: auto;

@@ -15,7 +15,7 @@ function renderQuestion() {
   select(".count").innerText = `${getGotRight()}/${questionCount}`
   
   select(".options").innerHTML = ""
-  select(".question").innerText = ""
+  select(".question").innerHTML = ""
   select(".next").disabled = true
   
   select(".synonyms").classList.add("hide")
@@ -27,7 +27,7 @@ function renderQuestion() {
   let randomType = Math.round(Math.random())
   let newQuestion = generateQuestion(randomType ? "synonym" : "antonym")
   
-  select(".question").innerText = newQuestion.title
+  select(".question").innerHTML = newQuestion.title
   
   QuizOption(newQuestion.options, newQuestion.commons)
   

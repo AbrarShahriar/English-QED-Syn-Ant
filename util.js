@@ -23,7 +23,7 @@ export const generateQuestion = type => {
   
   switch (type) {
     case "synonym":
-      title = `What is the synonym of the word "${selectedWord.main_word.toUpperCase()}?"`
+      title = `What is the <span class="syn-color">synonym</span> of the word "<span class="word-color">${selectedWord.main_word.toUpperCase()}</span>"?`
       
       options[randomI] = {
         label: selectedWord.synonyms[random(0, selectedWord.synonyms.length)],
@@ -42,7 +42,7 @@ export const generateQuestion = type => {
       break;
     
     case "antonym":
-      title = `What is the antonym of the word "${selectedWord.main_word.toUpperCase()}?"`
+      title = `What is the <span class="ant-color">antonym</span> of the word "<span class="word-color">${selectedWord.main_word.toUpperCase()}</span>"?`
       
       options[randomI] = {
         label: selectedWord.antonyms[random(0, selectedWord.antonyms.length)],
