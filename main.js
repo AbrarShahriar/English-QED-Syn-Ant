@@ -1,5 +1,5 @@
 import QuizOption from "././QuizOptions.js"
-import {generateQuestion, select, getGotRight} from "././util.js"
+import { generateQuestion, select, getGotRight, calculateAccuracy } from "././util.js"
 import data from "././data.js"
 
 select(".total").innerText = `Total Words: ${data.length}`
@@ -12,7 +12,8 @@ select(".next").addEventListener("click", renderQuestion)
 
 function renderQuestion() {
   questionCount++
-  select(".count").innerText = `${getGotRight()}/${questionCount}`
+  
+  select(".total-questions-solved").innerText = questionCount
   
   select(".options").innerHTML = ""
   select(".question").innerHTML = ""
@@ -21,14 +22,11 @@ function renderQuestion() {
   select(".synonyms").classList.add("hide")
   select(".antonyms").classList.add("hide")
   
-  select(".accuracy").innerText = `${Math.round((getGotRight()/questionCount) * 100)}%`
-
-  
   let randomType = Math.round(Math.random())
   let newQuestion = generateQuestion(randomType ? "synonym" : "antonym")
   
   select(".question").innerHTML = newQuestion.title
   
-  QuizOption(newQuestion.options, newQuestion.commons)
+  QuizOption(newQuestion.options, newQuestion.commons, questionCount)
   
 }

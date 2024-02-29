@@ -1,7 +1,7 @@
-import { createEl, select, increaseGotRight } from "./util.js"
+import { createEl, select, increaseGotRight, calculateAccuracy } from "./util.js"
 
 
-export default function QuizOption(generatedOptions, commons, gotRight) {
+export default function QuizOption(generatedOptions, commons, questionCount) {
   let options = []
   let parent = select(".options")
   
@@ -17,6 +17,8 @@ export default function QuizOption(generatedOptions, commons, gotRight) {
         } else {
           increaseGotRight()
         }
+        
+        calculateAccuracy(questionCount)
 
         generatedOptions.forEach((option, j) => {
           if(option.isAnswer) {
