@@ -99,7 +99,7 @@ header {
 
 .helper {
   width: 90%;
-  margin: 40px auto 0 auto;
+  margin: 40px auto 50px auto;
   color: white;
   display: flex;
   gap: 10px;
