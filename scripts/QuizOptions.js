@@ -12,7 +12,6 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
     button.classList.add('btn')
     
     button.innerHTML = `${generatedOptions[i].label}`
-
     
     button.addEventListener("click", () => {
         if (!generatedOptions[i].isAnswer) {
@@ -27,7 +26,7 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
         generatedOptions.forEach((option, j) => {
           if(option.isAnswer) {
             options[j].classList.add("_right")
-            options[j].innerHTML = `${generatedOptions[i].label} <i class="material-icons">done</i>`
+            options[j].innerHTML = `${generatedOptions[j].label} <i class="material-icons">done</i>`
 
           } else {
             select(".next").disabled = false

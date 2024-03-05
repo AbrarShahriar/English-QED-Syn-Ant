@@ -3,7 +3,6 @@ import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll } f
 import data from "././data.js"
 import "./common.js"
 
-select(".total-count").innerText = `Total Words: ${data.length}`
 
 let questionCount = 0
 
