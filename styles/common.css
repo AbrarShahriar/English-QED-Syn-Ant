@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
 :root {
   --backdrop-black: rgba(0, 0, 0, 0.5);
   --black: rgb(31, 31, 31);
@@ -12,6 +15,22 @@
   --light-blue: skyblue;
   --dark-blue: #49C0CA;
   --nav-blue: #3D3F5A;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+    font-size: 15pt;
+    
+    width: 100%;
+    font-family: "Rubik";
+    background: var(--black);
 }
 
 header {

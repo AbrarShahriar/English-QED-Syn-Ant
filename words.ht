@@ -36,6 +36,9 @@
       <div class="nav_option">
         <a href="index.html">Quiz</a>
       </div>
+      <div class="nav_option">
+        <a href="flashcards.html">Flashcards</a>
+      </div>
       
       <span>Created by <a href="https://abrarshahriar.github.io/">Abrar Shahriar</a></span>
 

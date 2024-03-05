@@ -14,23 +14,8 @@
   --light-blue: skyblue;
   --dark-blue: #49C0CA;
   --nav-blue: #3D3F5A;
-  
-
 }
 
-*, *::before, *::after {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-    font-size: 15pt;
-    
-    width: 100%;
-    font-family: "Rubik";
-    background: var(--black);
-}
 
 hr {
   opacity: .3;
