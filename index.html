@@ -1,73 +1,87 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <link rel="stylesheet" href="styles/flashcards.css">
+  <title>Vocab Practice</title>
+
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="styles/style.css">
   <link rel="stylesheet" href="styles/common.css">
   
-  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
   
-  <title>Flashcards</title>
+  <link rel="shortcut icon" sizes="192x192" href="assets/image.png" type="image/x-icon">
+  <meta property="og:image" content="assets/image.png" />
+  <link rel="apple-touch-icon" href="assets/image.png">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
 </head>
 
 <body>
+  
   <header>
     <div class="nav-open">
       <i class="material-icons">dehaze</i>
     </div>
+    
+    <div class="counts">
+      <span class="count">
+        <span class="got-right">0</span>
+        /
+        <span class="total-questions-solved">0</span>
+      </span>
+      <span class="accuracy">0%</span>
+   </div>
   </header>
   
-  <div class="flashcards_page">
+  <div class="quiz">
     
-    <div class="flip-card">
-      <div class="flip-card-inner">
-        <div class="flip-card-front">
-        <h2 class="main-word">Hello</h2>
-        </div>
-        <div class="flip-card-back">
-          
-            <div class="helper">
-              <div class="word_container synonyms">
-                <span class="title">Synonyms</span>
-                <hr>
-                <span class="words">eord2, du, euhd , eubiw</span>
-              </div>
-            <div class="word_container antonyms">
-              <span class="title">Antonyms</span>
-              <hr>
-            <span class="words">hwje, uekr, jekrbsj, iekdh</span>
-            </div>
-          </div>
-  
-        </div>
-      </div>
+    <h3 class="question"></h3>
+    
+    <div class="options">
+      
     </div>
-    
-    <button class="next">Next</button>
+   
+   <div class="action">
+     <button disabled class="next btn">Next</button>
+   </div>
   </div>
   
+  <div class="helper">
+    <div class="word_container synonyms">
+      <span class="title">Some common synonyms:</span>
+      <hr>
+      <span class="words"></span>
+    </div>
+    <div class="word_container antonyms">
+      <span class="title">Some common antonyms</span>
+      <hr>
+      <span class="words"></span>
+    </div>
+  </div>
   
   <div class="backdrop">
-    <nav>
+    <nav class="">
       <div class="nav-close">
         <i class="material-icons">close</i>
       </div>
 
-      <div class="nav_option">
-        <a href="index.html">Quiz</a>
-      </div>
+      
       <div class="nav_option">
         <a href="words.html">Words</a>
+      </div>
+      <div class="nav_option">
+        <a href="flashcards.html">Flashcards</a>
       </div>
       
       <span>Created by <a href="https://abrarshahriar.github.io/">Abrar Shahriar</a></span>
 
   </nav>
   </div>
-  <script type="module" src="scripts/flashcards.js"></script>
+ 
+  <script type="module" src="scripts/main.js"></script>
 </body>
-
 </html>

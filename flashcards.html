@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="styles/flashcards.css">
+  <link rel="stylesheet" href="styles/common.css">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  
+  <title>Flashcards</title>
+</head>
+
+<body>
+  <header>
+    <div class="nav-open">
+      <i class="material-icons">dehaze</i>
+    </div>
+  </header>
+  
+  <div class="flashcards_page">
+    
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+        <h2 class="main-word"></h2>
+        </div>
+        <div class="flip-card-back">
+          
+            <div class="helper">
+              <div class="word_container synonyms">
+                <span class="title">Synonyms</span>
+                <hr>
+                <span class="words"></span>
+              </div>
+            <div class="word_container antonyms">
+              <span class="title">Antonyms</span>
+              <hr>
+            <span class="words"></span>
+            </div>
+          </div>
+  
+        </div>
+      </div>
+    </div>
+    
+    <button class="next">Next</button>
+  </div>
+  
+  
+  <div class="backdrop">
+    <nav>
+      <div class="nav-close">
+        <i class="material-icons">close</i>
+      </div>
+
+      <div class="nav_option">
+        <a href="index.html">Quiz</a>
+      </div>
+      <div class="nav_option">
+        <a href="words.html">Words</a>
+      </div>
+      
+      <span>Created by <a href="https://abrarshahriar.github.io/">Abrar Shahriar</a></span>
+
+  </nav>
+  </div>
+  <script type="module" src="scripts/flashcards.js"></script>
+</body>
+
+</html>
