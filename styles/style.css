@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 :root {
+  --backdrop-black: rgba(0,0,0,0.5);
   --black: rgb(31, 31, 31);
   --dark-gray: rgb(71, 71, 71);
   --light-gray: lightgray;
@@ -12,15 +13,20 @@
   --dark-red: #F9484C;
   --light-blue: skyblue;
   --dark-blue: #49C0CA;
+  --nav-blue: #3D3F5A;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
     font-size: 15pt;
-    margin: 0;
-    padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
+    
     width: 100%;
     font-family: "Rubik";
     background: var(--black);
@@ -28,25 +34,15 @@ body {
 
 hr {
   opacity: 0.3;
+  margin: 5px 0 10px;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  display: flex;
-  flex-direction: row;
-  color: var(--white);
-  background: var(--dark-gray);
-  font-size: 16px;
-  padding: 5px 20px;
-  justify-content: space-between;
-  place-items: center;
-}
 
 .counts {
   display: flex;
   gap: 10px;
   place-items: center;
+  margin-left: auto;
 }
 
 .accuracy {
@@ -56,7 +52,7 @@ header {
 }
 
 .question {
-  margin-bottom: 30px;
+  margin: 15px 0 30px;
   line-height: 32px;
   color: var(--white);
 }
@@ -104,6 +100,13 @@ header {
   font-weight: 500;
   text-transform: capitalize;
   border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.option > i {
+  font-weight: 600;
 }
 
 .action {
@@ -154,19 +157,3 @@ header {
   font-weight: 500;
 }
 
-footer {
-  position: fixed;
-  bottom: 0;
-  background: var(--dark-gray);
-  padding: 10px;
-  margin-top: auto;
-  width: 100%;
-  text-align: center;
-  color: var(--light-gray);
-  font-size: 14px;
-}
-
-a {
-  text-decoration: none;
-  color: var(--light-blue);
-}

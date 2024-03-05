@@ -1,8 +1,9 @@
 import QuizOption from "././QuizOptions.js"
-import { generateQuestion, select, getGotRight, calculateAccuracy } from "././util.js"
+import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll } from "././util.js"
 import data from "././data.js"
+import "./common.js"
 
-select(".total").innerText = `Total Words: ${data.length}`
+select(".total-count").innerText = `Total Words: ${data.length}`
 
 let questionCount = 0
 

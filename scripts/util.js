@@ -4,6 +4,7 @@ let gotRight = 0
 
 export const createEl = el => document.createElement(el)
 export const select = el => document.querySelector(el)
+export const selectAll = selector => document.querySelectorAll(selector)
 export const random = (min=0, max=100) => Math.floor(Math.random() * max)
 export const generateQuestion = type => {
   let title = ""
@@ -71,6 +72,5 @@ export const increaseGotRight = () => {
   return gotRight
 }
 export const calculateAccuracy = (questionCount) => {
-  console.log(getGotRight(), questionCount)
     select(".accuracy").innerText = `${Math.round((getGotRight()/questionCount) * 100)}%`
 }

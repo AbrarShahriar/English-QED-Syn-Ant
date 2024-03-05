@@ -7,13 +7,17 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
   
   
   for (let i = 0; i < generatedOptions.length; i++) {
-    let div = createEl("button")
-    div.classList.add('option')
-    div.innerText = generatedOptions[i].label
+    let button = createEl("button")
+    button.classList.add('option')
+    button.classList.add('btn')
     
-    div.addEventListener("click", () => {
+    button.innerHTML = `${generatedOptions[i].label}`
+
+    
+    button.addEventListener("click", () => {
         if (!generatedOptions[i].isAnswer) {
-          div.classList.add("_wrong")
+          button.classList.add("_wrong")
+          button.innerHTML = `${generatedOptions[i].label} <i class="material-icons">clear</i>`
         } else {
           increaseGotRight()
         }
@@ -23,11 +27,14 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
         generatedOptions.forEach((option, j) => {
           if(option.isAnswer) {
             options[j].classList.add("_right")
+            options[j].innerHTML = `${generatedOptions[i].label} <i class="material-icons">done</i>`
+
           } else {
-            options[j].disabled = true
-            select(".next").classList.add("disabled")
             select(".next").disabled = false
           }
+          
+           options[j].disabled = true
+
         })
         
         select(".synonyms > .words").innerText = commons.synonyms.join(", ")
@@ -35,7 +42,7 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
         select(".antonyms > .words").innerText = commons.antonyms.join(", ")
         select(".antonyms").classList.remove("hide")
     })
-    options[i] = div
+    options[i] = button
   }
   
   options.forEach(optionEl => parent.append(optionEl))

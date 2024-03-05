@@ -7,19 +7,26 @@
   <title>Vocab Practice</title>
 
   <!-- Custom Styles -->
-  <link rel="stylesheet" href="style.css">
-  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/common.css">
   
-  <link rel="shortcut icon" sizes="192x192" href="image.png" type="image/x-icon">
-  <meta property="og:image" content="image.png" />
-  <link rel="apple-touch-icon" href="image.png">
+  <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+  
+  <link rel="shortcut icon" sizes="192x192" href="assets/image.png" type="image/x-icon">
+  <meta property="og:image" content="assets/image.png" />
+  <link rel="apple-touch-icon" href="assets/image.png">
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
 </head>
 
 <body>
   
   <header>
-    <span class="total">Total Words:</span>
+    <div class="nav-open">
+      <i class="material-icons">dehaze</i>
+    </div>
+    
     <div class="counts">
       <span class="count">
         <span class="got-right">0</span>
@@ -27,9 +34,9 @@
         <span class="total-questions-solved">0</span>
       </span>
       <span class="accuracy">0%</span>
-    </div>
-   
+   </div>
   </header>
+  
   <div class="quiz">
     
     <h3 class="question"></h3>
@@ -39,7 +46,7 @@
     </div>
    
    <div class="action">
-     <button disabled class="next">Next</button>
+     <button disabled class="next btn">Next</button>
    </div>
   </div>
   
@@ -59,7 +66,21 @@
   <footer>
     <span>Created by <a href="https://abrarshahriar.github.io/">Abrar Shahriar</a></span>
   </footer>
-  <!-- Project -->
-  <script type="module" src="main.js"></script>
+  
+  <div class="backdrop">
+    <nav class="">
+      <div class="nav-close">
+        <i class="material-icons">close</i>
+      </div>
+
+      <span class="total-count">Total Words:</span>
+      
+      <div class="nav_option">
+        <a href="words.html">Words</a>
+      </div>
+  </nav>
+  </div>
+ 
+  <script type="module" src="scripts/main.js"></script>
 </body>
 </html>

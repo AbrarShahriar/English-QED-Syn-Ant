@@ -2336,8 +2336,1848 @@ const data = [
       "Stop"
     ]
   },
-
-
+{
+    "main_word": "Join",
+    "bangla_meaning": "ক্ষযাগিাে",
+    "synonyms": ["Unite", "Combine"],
+    "antonyms": ["Separate", "Divide"]
+},
+{
+    "main_word": "Joint",
+    "bangla_meaning": "ক্ষজ্া়ি",
+    "synonyms": ["Connection", "Articulation"],
+    "antonyms": ["Separation", "Disconnection"]
+},
+{
+    "main_word": "Jollity",
+    "bangla_meaning": "আেি",
+    "synonyms": ["Merriment", "Gaiety"],
+    "antonyms": ["Gloominess", "Sadness"]
+},
+{
+    "main_word": "Jostle",
+    "bangla_meaning": "ধাক্কা",
+    "synonyms": ["Push", "Shove"],
+    "antonyms": ["Delicacy", "Gentleness"]
+},
+{
+    "main_word": "Journal",
+    "bangla_meaning": "ডাত্রয়ডর",
+    "synonyms": ["Diary", "Logbook"],
+    "antonyms": ["Blankness", "Emptiness"]
+},
+{
+    "main_word": "Journey",
+    "bangla_meaning": "যাো",
+    "synonyms": ["Trip", "Travel"],
+    "antonyms": ["Arrival", "Destination"]
+},
+{
+    "main_word": "Jowl",
+    "bangla_meaning": "গা",
+    "synonyms": ["Cheek", "Jaw"],
+    "antonyms": ["Forehead", "Brow"]
+},
+{
+    "main_word": "Joy",
+    "bangla_meaning": "আেি",
+    "synonyms": ["Happiness", "Pleasure"],
+    "antonyms": ["Sadness", "Sorrow"]
+},
+{
+    "main_word": "Jubilee",
+    "bangla_meaning": "মত্রহাৎসব",
+    "synonyms": ["Anniversary", "Celebration"],
+    "antonyms": ["Mourning", "Grief"]
+},
+{
+    "main_word": "Judge",
+    "bangla_meaning": "ডবচারক",
+    "synonyms": ["Referee", "Umpire"],
+    "antonyms": ["Participant", "Contestant"]
+},
+{
+    "main_word": "Judicious",
+    "bangla_meaning": "ডবচের্",
+    "synonyms": ["Wise", "Sensible"],
+    "antonyms": ["Foolish", "Reckless"]
+},
+{
+    "main_word": "Juggernaut",
+    "bangla_meaning": "অপ্রডতত্ররাধয শন্দক্ত",
+    "synonyms": ["Unstoppable Force", "Juggernaut"],
+    "antonyms": ["Fragile", "Weak"]
+},
+{
+    "main_word": "Juggle",
+    "bangla_meaning": "করাতক ী",
+    "synonyms": ["Manipulate", "Manage"],
+    "antonyms": ["Drop", "Lose control"]
+},
+{
+    "main_word": "Juicy",
+    "bangla_meaning": "রসাত্র া",
+    "synonyms": ["Succulent", "Flavorful"],
+    "antonyms": ["Dry", "Bland"]
+},
+{
+    "main_word": "Jumble",
+    "bangla_meaning": "ডবশৃঙ্খ া",
+    "synonyms": ["Confusion", "Mess"],
+    "antonyms": ["Order", "Organization"]
+},
+{
+    "main_word": "Jump",
+    "bangla_meaning": "াফ",
+    "synonyms": ["Leap", "Spring"],
+    "antonyms": ["Crouch", "Bend"]
+},
+{
+    "main_word": "Jungle",
+    "bangla_meaning": "জ্ঙ্গ",
+    "synonyms": ["Rainforest", "Wilderness"],
+    "antonyms": ["City", "Civilization"]
+},
+{
+    "main_word": "Junior",
+    "bangla_meaning": "ক্ষছাট্ট",
+    "synonyms": ["Younger", "Less experienced"],
+    "antonyms": ["Senior", "Elder"]
+},
+{
+    "main_word": "Jurisdiction",
+    "bangla_meaning": "এেডতয়ার",
+    "synonyms": ["Authority", "Control"],
+    "antonyms": ["Exemption", "Freedom"]
+},
+{
+    "main_word": "Jury",
+    "bangla_meaning": "জ্ুডর",
+    "synonyms": ["Panel of judges", "Tribunal"],
+    "antonyms": ["Individual", "Sole Decider"]
+},
+{
+    "main_word": "Just",
+    "bangla_meaning": "সঠঠক",
+    "synonyms": ["Fair", "Unbiased"],
+    "antonyms": ["Unjust", "Biased"]
+},
+{
+    "main_word": "Juvenal",
+    "bangla_meaning": "ডশশুসু ভ",
+    "synonyms": ["Youthful", "Childlike"],
+    "antonyms": ["Mature", "Adult"]
+},
+{
+    "main_word": "Juxtapose",
+    "bangla_meaning": "পাশাপাডশ রাো",
+    "synonyms": ["Place side by side", "Compare"],
+    "antonyms": ["Separate", "Divide"]
+},
+{
+    "main_word": "Knowledge",
+    "bangla_meaning": "জ্ঞাে",
+    "synonyms": ["Information", "Wisdom", "Erudition"],
+    "antonyms": ["Ignorance"]
+},
+{
+    "main_word": "Key",
+    "bangla_meaning": "চাডব",
+    "synonyms": ["Tool", "Solution", "Answer"],
+    "antonyms": ["Obstacle", "Hindrance"]
+},
+{
+    "main_word": "King",
+    "bangla_meaning": "রাজ্া",
+    "synonyms": ["Ruler", "Monarch", "Sovereign"],
+    "antonyms": ["Subject", "Commoner"]
+},
+{
+    "main_word": "Kindness",
+    "bangla_meaning": "িয়া",
+    "synonyms": ["Compassion", "Generosity", "Benevolence"],
+    "antonyms": ["Cruelty", "Harshness"]
+},
+{
+    "main_word": "Kiss",
+    "bangla_meaning": "চভম্বে",
+    "synonyms": ["Embrace", "Caress", "Smooch"],
+    "antonyms": ["Repulsion", "Rejection"]
+},
+{
+    "main_word": "Know",
+    "bangla_meaning": "জ্ঞাো",
+    "synonyms": ["Understand", "Recognize", "Comprehend"],
+    "antonyms": ["Forget", "Be ignorant"]
+},
+{
+    "main_word": "Knowledge",
+    "bangla_meaning": "জ্ঞাে",
+    "synonyms": ["Understanding", "Learning", "Awareness"],
+    "antonyms": ["Ignorance", "Illiteracy"]
+},
+{
+    "main_word": "Knead",
+    "bangla_meaning": "ক্ষমশাত্রো",
+    "synonyms": ["Mix", "Blend", "Work with hands"],
+    "antonyms": ["Separate", "Unmix"]
+},
+{
+    "main_word": "Knight",
+    "bangla_meaning": "ক্ষঘা়িসওয়ার",
+    "synonyms": ["Warrior", "Champion", "Protector"],
+    "antonyms": ["Traitor", "Enemy"]
+},
+{
+    "main_word": "Knock",
+    "bangla_meaning": "আঘাত করা",
+    "synonyms": ["Tap", "Strike", "Bang"],
+    "antonyms": ["Ignore", "Leave alone"]
+},
+{
+    "main_word": "Knot",
+    "bangla_meaning": "ডগাঁট",
+    "synonyms": ["Tangle", "Complication", "Difficulty"],
+    "antonyms": ["Straightforward", "Simple"]
+},
+{
+    "main_word": "Krazy",
+    "bangla_meaning": "পাগ",
+    "synonyms": ["Mad", "Insane", "Delirious"],
+    "antonyms": ["Sane", "Rational"]
+},
+{
+    "main_word": "Keen",
+    "bangla_meaning": "তীক্ষ্ণ",
+    "synonyms": ["Sharp", "Eager", "Perceptive"],
+    "antonyms": ["Dull", "Uninterested"]
+},
+{
+    "main_word": "Kick",
+    "bangla_meaning": "াডথ মারা",
+    "synonyms": ["Strike", "Propel", "Push away"],
+    "antonyms": ["Embrace", "Welcome"]
+},
+{
+    "main_word": "Kiss",
+    "bangla_meaning": "চভম্বে",
+    "synonyms": ["Embrace", "Affection", "Love"],
+    "antonyms": ["Rejection", "Hatred"]
+},
+{
+    "main_word": "King",
+    "bangla_meaning": "রাজ্া",
+    "synonyms": ["Ruler", "Monarch", "Sovereign"],
+    "antonyms": ["Subject", "Commoner"]
+},
+{
+    "main_word": "Abandon",
+    "bangla_meaning": "পরিত্যাগ",
+    "synonyms": ["Forsake", "Desert", "Renounce"],
+    "antonyms": ["Retain", "Keep", "Hold"]
+},
+{
+    "main_word": "Absurd",
+    "bangla_meaning": "অসাধু",
+    "synonyms": ["Ridiculous", "Preposterous", "Nonsensical"],
+    "antonyms": ["Logical", "Rational", "Sensible"]
+},
+{
+    "main_word": "Accelerate",
+    "bangla_meaning": "চালডান",
+    "synonyms": ["Speed up", "Quick", "Hasten"],
+    "antonyms": ["Slow down", "Decelerate"]
+},
+{
+    "main_word": "Adaptable",
+    "bangla_meaning": "সমর্ থয াগয",
+    "synonyms": ["Flexible", "Versatile", "Adjustable"],
+    "antonyms": ["Inflexible", "Rigid", "Invariable"]
+},
+{
+    "main_word": "Ambiguous",
+    "bangla_meaning": "অস্পষ্ট",
+    "synonyms": ["Vague", "Uncertain", "Obscure"],
+    "antonyms": ["Clear", "Explicit", "Distinct"]
+},
+{
+    "main_word": "Analyze",
+    "bangla_meaning": "রিযেষণ কিা",
+    "synonyms": ["Examine", "Scrutinize", "Evaluate"],
+    "antonyms": ["Ignore", "Neglect", "Overlook"]
+},
+{
+    "main_word": "Animate",
+    "bangla_meaning": "জীিন্ত",
+    "synonyms": ["Lively", "Animated", "Energetic"],
+    "antonyms": ["Lifeless", "Inanimate", "Dull"]
+},
+{
+    "main_word": "Apprehensive",
+    "bangla_meaning": "আশঙ্কাশীল",
+    "synonyms": ["Anxious", "Nervous", "Worried"],
+    "antonyms": ["Confident", "Assured", "Unconcerned"]
+},
+{
+    "main_word": "Arbitrary",
+    "bangla_meaning": "ইচ্ছামত্",
+    "synonyms": ["Capricious", "Random", "Whimsical"],
+    "antonyms": ["Reasonable", "Rational", "Consistent"]
+},
+{
+    "main_word": "Ascend",
+    "bangla_meaning": "উচ্চাকাঙ্ক্ষী",
+    "synonyms": ["Climb", "Rise", "Mount"],
+    "antonyms": ["Descend", "Fall", "Lower"]
+},
+{
+    "main_word": "Aversion",
+    "bangla_meaning": "ঘৃণা",
+    "synonyms": ["Dislike", "Hatred", "Repulsion"],
+    "antonyms": ["Liking", "Fondness", "Affection"]
+},
+{
+    "main_word": "Authentic",
+    "bangla_meaning": "সত্যানুসাযি",
+    "synonyms": ["Genuine", "Real", "Legitimate"],
+    "antonyms": ["Fake", "Counterfeit", "Phony"]
+},
+{
+    "main_word": "Avid",
+    "bangla_meaning": "উগ্র",
+    "synonyms": ["Enthusiastic", "Zealous", "Eager"],
+    "antonyms": ["Indifferent", "Apathetic", "Uninterested"]
+},
+{
+    "main_word": "Banish",
+    "bangla_meaning": "রনরষদ্ধ কিা",
+    "synonyms": ["Expel", "Exile", "Oust"],
+    "antonyms": ["Allow", "Permit", "Admit"]
+},
+{
+    "main_word": "Benevolent",
+    "bangla_meaning": "উদাি",
+    "synonyms": ["Kind", "Generous", "Charitable"],
+    "antonyms": ["Malevolent", "Malignant", "Unkind"]
+},
+{
+    "main_word": "Bewilder",
+    "bangla_meaning": "হত্ভ্ররমত্",
+    "synonyms": ["Confuse", "Baffle", "Perplex"],
+    "antonyms": ["Clarify", "Enlighten", "Explain"]
+},
+{
+    "main_word": "Brevity",
+    "bangla_meaning": "সংযেপ",
+    "synonyms": ["Conciseness", "Briefness", "Shortness"],
+    "antonyms": ["Lengthiness", "Verbosity", "Prolixity"]
+},
+{
+    "main_word": "Capitulate",
+    "bangla_meaning": "আত্মসমপ থণ কিা",
+    "synonyms": ["Surrender", "Yield", "Submit"],
+    "antonyms": ["Resist", "Defy", "Oppose"]
+},
+{
+    "main_word": "Complacent",
+    "bangla_meaning": "আত্মসন্তুষ্ট",
+    "synonyms": ["Self-satisfied", "Smug", "Content"],
+    "antonyms": ["Dissatisfied", "Unhappy", "Discontented"]
+},
+{
+    "main_word": "Concede",
+    "bangla_meaning": "অংগীকাি কিা",
+    "synonyms": ["Admit", "Acknowledge", "Grant"],
+    "antonyms": ["Deny", "Reject", "Refuse"]
+},
+{
+    "main_word": "Constrict",
+    "bangla_meaning": "সংযকারচত্ কিা",
+    "synonyms": ["Squeeze", "Contract", "Tighten"],
+    "antonyms": ["Expand", "Relax", "Loosen"]
+},
+{
+    "main_word": "Dazzling",
+    "bangla_meaning": "আযলাকময়",
+    "synonyms": ["Bright", "Radiant", "Brilliant"],
+    "antonyms": ["Dull", "Dim", "Gloomy"]
+},
+{
+    "main_word": "Deceptive",
+    "bangla_meaning": "রমর্যা",
+    "synonyms": ["Misleading", "Dishonest", "Fraudulent"],
+    "antonyms": ["Honest", "Truthful", "Genuine"]
+},
+{
+    "main_word": "Defiant",
+    "bangla_meaning": "আপরিজনক",
+    "synonyms": ["Rebellious", "Resistant", "Obstinate"],
+    "antonyms": ["Obedient", "Compliant", "Submissive"]
+},
+{
+    "main_word": "Denounce",
+    "bangla_meaning": "রনন্দা কিা",
+    "synonyms": ["Condemn", "Criticize", "Censure"],
+    "antonyms": ["Praise", "Commend", "Applaud"]
+},
+{
+    "main_word": "Deviate",
+    "bangla_meaning": "পার্াভ্রষ্ট",
+    "synonyms": ["Diverge", "Stray", "Veer"],
+    "antonyms": ["Conform", "Adhere", "Obey"]
+},
+{
+    "main_word": "Disperse",
+    "bangla_meaning": "ছরডযয় াওয়া",
+    "synonyms": ["Scatter", "Distribute", "Dissipate"],
+    "antonyms": ["Gather", "Collect", "Concentrate"]
+},
+{
+    "main_word": "Eclectic",
+    "bangla_meaning": "সংকরলত্",
+    "synonyms": ["Diverse", "Varied", "Heterogeneous"],
+    "antonyms": ["Uniform", "Homogeneous", "Monolithic"]
+},
+{
+    "main_word": "Elaborate",
+    "bangla_meaning": "রিস্তারিত্",
+    "synonyms": ["Detailed", "Intricate", "Complicated"],
+    "antonyms": ["Simple", "Plain", "Uncomplicated"]
+},
+{
+    "main_word": "Embrace",
+    "bangla_meaning": "আরলঙ্গন কিা",
+    "synonyms": ["Hug", "Clasp", "Enfold"],
+    "antonyms": ["Reject", "Shun", "Avoid"]
+},
+{
+    "main_word": "Enigma",
+    "bangla_meaning": "িহসযময়",
+    "synonyms": ["Mystery", "Puzzle", "Conundrum"],
+    "antonyms": ["Clarity", "Explanation", "Solution"]
+},
+{
+    "main_word": "Exacerbate",
+    "bangla_meaning": "িাডাযনা",
+    "synonyms": ["Aggravate", "Worsen", "Intensify"],
+    "antonyms": ["Alleviate", "Mitigate", "Improve"]
+},
+{
+    "main_word": "Exquisite",
+    "bangla_meaning": "সুশীল",
+    "synonyms": ["Beautiful", "Elegant", "Delicate"],
+    "antonyms": ["Ugly", "Plain", "Ordinary"]
+},
+{
+    "main_word": "Facilitate",
+    "bangla_meaning": "সহজকিণ কিা",
+    "synonyms": ["Simplify", "Aid", "Assist"],
+    "antonyms": ["Hinder", "Complicate", "Obstruct"]
+},
+{
+    "main_word": "Fallacy",
+    "bangla_meaning": "ভুল ধািণ",
+    "synonyms": ["Error", "Misconception", "Illusion"],
+    "antonyms": ["Truth", "Fact", "Reality"]
+},
+{
+    "main_word": "Flourish",
+    "bangla_meaning": "ফু যলারিত্",
+    "synonyms": ["Thrive", "Prosper", "Blossom"],
+    "antonyms": ["Decline", "Wither", "Fade"]
+},
+{
+    "main_word": "Frugal",
+    "bangla_meaning": "রমত্িযয়ী",
+    "synonyms": ["Thrifty", "Economical", "Stingy"],
+    "antonyms": ["Extravagant", "Wasteful", "Lavish"]
+},
+{
+    "main_word": "Garrulous",
+    "bangla_meaning": "িাকযরিহীন",
+    "synonyms": ["Talkative", "Chatty", "Loquacious"],
+    "antonyms": ["Reserved", "Silent", "Reticent"]
+},
+{
+    "main_word": "Gravity",
+    "bangla_meaning": "গুরুত্ব",
+    "synonyms": ["Importance", "Seriousness", "Weight"],
+    "antonyms": ["Triviality", "Levity", "Insignificance"]
+},
+{
+    "main_word": "Hamper",
+    "bangla_meaning": "িাধা দদওয়া",
+    "synonyms": ["Hinder", "Impede", "Obstruct"],
+    "antonyms": ["Aid", "Facilitate", "Assist"]
+},
+{
+    "main_word": "Harmony",
+    "bangla_meaning": "সমান্তি",
+    "synonyms": ["Unity", "Agreement", "Accord"],
+    "antonyms": ["Discord", "Dissonance", "Conflict"]
+},
+{
+    "main_word": "Hinder",
+    "bangla_meaning": "িাধা কিা",
+    "synonyms": ["Impede", "Obstruct", "Deter"],
+    "antonyms": ["Facilitate", "Assist", "Promote"]
+},
+{
+    "main_word": "Illuminate",
+    "bangla_meaning": "আযলারকত্ কিা",
+    "synonyms": ["Lighten", "Brighten", "Clarify"],
+    "antonyms": ["Darken", "Obscure", "Confuse"]
+},
+{
+    "main_word": "Impeccable",
+    "bangla_meaning": "অকৃ ত্রিম",
+    "synonyms": ["Flawless", "Perfect", "Faultless"],
+    "antonyms": ["Flawed", "Imperfect", "Defective"]
+},
+{
+    "main_word": "Incessant",
+    "bangla_meaning": "অরিিত্",
+    "synonyms": ["Uninterrupted", "Continuous", "Perpetual"],
+    "antonyms": ["Intermittent", "Occasional", "Periodic"]
+},
+{
+    "main_word": "Inevitable",
+    "bangla_meaning": "অিশযই",
+    "synonyms": ["Unavoidable", "Unpreventable", "Certain"],
+    "antonyms": ["Avoidable", "Preventable", "Uncertain"]
+},
+{
+    "main_word": "Inquisitive",
+    "bangla_meaning": "প্রশ্নিাদী",
+    "synonyms": ["Curious", "Interested", "Nosy"],
+    "antonyms": ["Indifferent", "Apathetic", "Uninterested"]
+},
+{
+    "main_word": "Instigate",
+    "bangla_meaning": "উযিজনা",
+    "synonyms": ["Incite", "Provoke", "Stimulate"],
+    "antonyms": ["Deter", "Restrain", "Discourage"]
+},
+{
+    "main_word": "Intrepid",
+    "bangla_meaning": "রনভীক",
+    "synonyms": ["Fearless", "Courageous", "Bold"],
+    "antonyms": ["Timid", "Cowardly", "Fearful"]
+},
+{
+    "main_word": "Abandon",
+    "bangla_meaning": "পরিত্যাগ",
+    "synonyms": ["Forsake", "Desert", "Give up"],
+    "antonyms": ["Embrace", "Retain", "Keep"]
+},
+{
+    "main_word": "Benevolent",
+    "bangla_meaning": "উদাি",
+    "synonyms": ["Kind", "Generous", "Altruistic"],
+    "antonyms": ["Malevolent", "Malignant", "Selfish"]
+},
+{
+    "main_word": "Cacophony",
+    "bangla_meaning": "অশ্রুরত্শৃঙ্গাি",
+    "synonyms": ["Discord", "Noise", "Dissonance"],
+    "antonyms": ["Harmony", "Melody", "Peace"]
+},
+{
+    "main_word": "Deter",
+    "bangla_meaning": "প্ররত্হত্ কিা",
+    "synonyms": ["Discourage", "Hinder", "Prevent"],
+    "antonyms": ["Encourage", "Allow", "Promote"]
+},
+{
+    "main_word": "Enigma",
+    "bangla_meaning": "িহস্য",
+    "synonyms": ["Mystery", "Puzzle", "Conundrum"],
+    "antonyms": ["Clarity", "Solution", "Explanation"]
+},
+{
+    "main_word": "Facetious",
+    "bangla_meaning": "রিদ্রূপ",
+    "synonyms": ["Witty", "Humorous", "Playful"],
+    "antonyms": ["Serious", "Grave", "Sincere"]
+},
+{
+    "main_word": "Garrulous",
+    "bangla_meaning": "িাকচাকী",
+    "synonyms": ["Talkative", "Chatty", "Loquacious"],
+    "antonyms": ["Reserved", "Silent", "Taciturn"]
+},
+{
+    "main_word": "Harangue",
+    "bangla_meaning": "স্ত্কককিা",
+    "synonyms": ["Lecture", "Tirade", "Speech"],
+    "antonyms": ["Praise", "Compliment", "Applaud"]
+},
+{
+    "main_word": "Iconoclast",
+    "bangla_meaning": "রিম াচক",
+    "synonyms": ["Rebel", "Dissenter", "Maverick"],
+    "antonyms": ["Conformist", "Traditionalist", "Conservative"]
+},
+{
+    "main_word": "Juxtapose",
+    "bangla_meaning": "স্ ন্বয় কিা",
+    "synonyms": ["Compare", "Contrast", "Align"],
+    "antonyms": ["Separate", "Disconnect", "Divide"]
+},
+{
+    "main_word": "Kindle",
+    "bangla_meaning": "উমেজনা",
+    "synonyms": ["Ignite", "Spark", "Inflame"],
+    "antonyms": ["Extinguish", "Quench", "Suppress"]
+},
+{
+    "main_word": "Lament",
+    "bangla_meaning": "রিলাপ কিা",
+    "synonyms": ["Mourn", "Grieve", "Deplore"],
+    "antonyms": ["Celebrate", "Rejoice", "Delight"]
+},
+{
+    "main_word": "Magnanimous",
+    "bangla_meaning": "উদাি",
+    "synonyms": ["Generous", "Noble", "Benevolent"],
+    "antonyms": ["Petty", "Selfish", "Mean"]
+},
+{
+    "main_word": "Nebulous",
+    "bangla_meaning": "অস্বস্তি",
+    "synonyms": ["Vague", "Uncertain", "Ambiguous"],
+    "antonyms": ["Clear", "Definite", "Explicit"]
+},
+{
+    "main_word": "Obfuscate",
+    "bangla_meaning": "অস্বস্তি ছ ুঁডা",
+    "synonyms": ["Confuse", "Baffle", "Muddle"],
+    "antonyms": ["Clarify", "Illuminate", "Explain"]
+},
+{
+    "main_word": "Pernicious",
+    "bangla_meaning": "হারনকি",
+    "synonyms": ["Harmful", "Destructive", "Malevolent"],
+    "antonyms": ["Beneficial", "Benign", "Helpful"]
+},
+{
+    "main_word": "Quixotic",
+    "bangla_meaning": "কল্পনাপূর্ ক",
+    "synonyms": ["Idealistic", "Unrealistic", "Romantic"],
+    "antonyms": ["Pragmatic", "Realistic", "Sensible"]
+},
+{
+    "main_word": "Reticent",
+    "bangla_meaning": "ম ৌন",
+    "synonyms": ["Reserved", "Silent", "Taciturn"],
+    "antonyms": ["Talkative", "Outspoken", "Communicative"]
+},
+{
+    "main_word": "Sycophant",
+    "bangla_meaning": "চাপলু",
+    "synonyms": ["Flatterer", "Toady", "Fawner"],
+    "antonyms": ["Critic", "Skeptic", "Cynic"]
+},
+{
+    "main_word": "Trepidation",
+    "bangla_meaning": "ভীরত্",
+    "synonyms": ["Apprehension", "Fear", "Anxiety"],
+    "antonyms": ["Confidence", "Assurance", "Calm"]
+},
+{
+    "main_word": "Ubiquitous",
+    "bangla_meaning": "স্ি কত্রস্থ",
+    "synonyms": ["Omnipresent", "Everywhere", "Pervasive"],
+    "antonyms": ["Rare", "Scarce", "Limited"]
+},
+{
+    "main_word": "Venerate",
+    "bangla_meaning": "শ্রদ্ধার্ঘ কয",
+    "synonyms": ["Admire", "Respect", "Revere"],
+    "antonyms": ["Despise", "Disdain", "Contemn"]
+},
+{
+    "main_word": "Wistful",
+    "bangla_meaning": "কাস্তিত্",
+    "synonyms": ["Yearning", "Longing", "Nostalgic"],
+    "antonyms": ["Content", "Satisfied", "Pleased"]
+},
+{
+    "main_word": "Xenophobia",
+    "bangla_meaning": "রিমদশী র্ঘৃর্া",
+    "synonyms": ["Fear of foreigners", "Racism", "Prejudice"],
+    "antonyms": ["Acceptance", "Tolerance", "Inclusivity"]
+},
+{
+    "main_word": "Yearn",
+    "bangla_meaning": "কাঙ্ক্ষা কিা",
+    "synonyms": ["Crave", "Long for", "Desire"],
+    "antonyms": ["Abhor", "Despise", "Loathe"]
+},
+{
+  "main_word": "Ability",
+  "bangla_meaning": "দক্ষতা",
+  "synonyms": ["Capacity", "Talent"],
+  "antonyms": ["Ineptitude", "Incompetence"]
+},
+{
+  "main_word": "Abundant",
+  "bangla_meaning": "প্রচুর",
+  "synonyms": ["Ample", "Plentiful"],
+  "antonyms": ["Scarce", "Meager"]
+},
+{
+  "main_word": "Accept",
+  "bangla_meaning": "গ্রহণ করা",
+  "synonyms": ["Receive", "Take"],
+  "antonyms": ["Refuse", "Reject"]
+},
+{
+  "main_word": "Accessible",
+  "bangla_meaning": "সহজলভ্য",
+  "synonyms": ["Approachable", "Attainable"],
+  "antonyms": ["Inaccessible", "Remote"]
+},
+{
+  "main_word": "Achievement",
+  "bangla_meaning": "সাফলয",
+  "synonyms": ["Accomplishment", "Attainment"],
+  "antonyms": ["Failure", "Defeat"]
+},
+{
+  "main_word": "Acknowledge",
+  "bangla_meaning": "স্বীকার করা",
+  "synonyms": ["Admit", "Recognize"],
+  "antonyms": ["Deny", "Disclaim"]
+},
+{
+  "main_word": "Active",
+  "bangla_meaning": "সক্রিয়",
+  "synonyms": ["Energetic", "Lively"],
+  "antonyms": ["Passive", "Inactive"]
+},
+{
+  "main_word": "Actual",
+  "bangla_meaning": "বাস্তব",
+  "synonyms": ["Real", "Factual"],
+  "antonyms": ["Imaginary", "Hypothetical"]
+},
+{
+  "main_word": "Adapt",
+  "bangla_meaning": "মানিয়য় নিওয়া",
+  "synonyms": ["Adjust", "Conform"],
+  "antonyms": ["Resist", "Oppose"]
+},
+{
+  "main_word": "Adequate",
+  "bangla_meaning": "যয়েষ্ট",
+  "synonyms": ["Sufficient", "Enough"],
+  "antonyms": ["Inadequate", "Insufficient"]
+},
+{
+  "main_word": "Advantage",
+  "bangla_meaning": "সুনবধা",
+  "synonyms": ["Benefit", "Gain"],
+  "antonyms": ["Disadvantage", "Drawback"]
+},
+{
+  "main_word": "Affection",
+  "bangla_meaning": "নেহ",
+  "synonyms": ["Love", "Fondness"],
+  "antonyms": ["Apathy", "Indifference"]
+},
+{
+  "main_word": "Afterthought",
+  "bangla_meaning": "পরবতী নচন্তা",
+  "synonyms": ["Second thought", "Aftereffect"],
+  "antonyms": ["Forethought", "Premonition"]
+},
+{
+  "main_word": "Agree",
+  "bangla_meaning": "সম্মত হওয়া",
+  "synonyms": ["Consent", "Concur"],
+  "antonyms": ["Disagree", "Dissent"]
+},
+{
+    "main_word": "Aim",
+    "bangla_meaning": "লক্ষ্য",
+    "synonyms": ["Objective", "Goal"],
+    "antonyms": ["Aimless", "Directionless"]
+},
+{
+    "main_word": "Alarm",
+    "bangla_meaning": "উৎসাহ",
+    "synonyms": ["Apprehension", "Anxiety"],
+    "antonyms": ["Reassurance", "Calmness"]
+},
+{
+    "main_word": "Allow",
+    "bangla_meaning": "অনুমতি দেওয়া",
+    "synonyms": ["Permit", "Authorize"],
+    "antonyms": ["Forbid", "Prohibit"]
+},
+{
+    "main_word": "Almost",
+    "bangla_meaning": "প্রায়",
+    "synonyms": ["Nearly", "Approximately"],
+    "antonyms": ["Far from", "Not nearly"]
+},
+{
+    "main_word": "Alone",
+    "bangla_meaning": "একা",
+    "synonyms": ["Solitary", "Lonely"],
+    "antonyms": ["Accompanied", "Together"]
+},
+{
+    "main_word": "Alternative",
+    "bangla_meaning": "বিকল্প",
+    "synonyms": ["Choice", "Option"],
+    "antonyms": ["None", "Unique"]
+},
+{
+    "main_word": "Ambition",
+    "bangla_meaning": "লক্ষ্যাবলম্বন",
+    "synonyms": ["Aspiration", "Desire"],
+    "antonyms": ["Indifference", "Apathy"]
+},
+{
+    "main_word": "Amuse",
+    "bangla_meaning": "মজা দেওয়া",
+    "synonyms": ["Entertain", "Delight"],
+    "antonyms": ["Bore", "Tire"]
+},
+{
+    "main_word": "Analyze",
+    "bangla_meaning": "বিশ্লেষণ করা",
+    "synonyms": ["Examine", "Dissect"],
+    "antonyms": ["Synthesize", "Combine"]
+},
+{
+    "main_word": "Anger",
+    "bangla_meaning": "রাগ",
+    "synonyms": ["Wrath", "Fury"],
+    "antonyms": ["Calmness", "Serenity"]
+},
+{
+    "main_word": "Announce",
+    "bangla_meaning": "ঘোষণা করা",
+    "synonyms": ["Declare", "Proclaim"],
+    "antonyms": ["Conceal", "Hide"]
+},
+{
+    "main_word": "Appreciate",
+    "bangla_meaning": "মূল্যায়ন করা",
+    "synonyms": ["Value", "Admire"],
+    "antonyms": ["Depreciate", "Belittle"]
+},
+{
+    "main_word": "Argue",
+    "bangla_meaning": "তর্ক করা",
+    "synonyms": ["Dispute", "Debate"],
+    "antonyms": ["Agree", "Concede"]
+},
+{
+    "main_word": "Arrange",
+    "bangla_meaning": "সাজানো",
+    "synonyms": ["Organize", "Order"],
+    "antonyms": ["Disarrange", "Disorder"]
+},
+{
+    "main_word": "Assume",
+    "bangla_meaning": "ধারণ করা",
+    "synonyms": ["Suppose", "Presume"],
+    "antonyms": ["Doubt", "Question"]
+},
+{
+    "main_word": "Astonish",
+    "bangla_meaning": "অবাক করা",
+    "synonyms": ["Surprise", "Amaze"],
+    "antonyms": ["Comfort", "Reassure"]
+},
+{
+    "main_word": "Attempt",
+    "bangla_meaning": "নচষ্টা করা",
+    "synonyms": ["Try", "Endeavor"],
+    "antonyms": ["Give up", "Abandon"]
+},
+{
+    "main_word": "Attitude",
+    "bangla_meaning": "মনোভ্াব",
+    "synonyms": ["Disposition", "Perspective"],
+    "antonyms": ["Indifference", "Apathy"]
+},
+{
+    "main_word": "Attract",
+    "bangla_meaning": "আকষ কণ করা",
+    "synonyms": ["Lure", "Entice"],
+    "antonyms": ["Repel", "Disgust"]
+},
+{
+    "main_word": "Aware",
+    "bangla_meaning": "সয়চতি",
+    "synonyms": ["Conscious", "Mindful"],
+    "antonyms": ["Unaware", "Oblivious"]
+},
+{
+    "main_word": "Awkward",
+    "bangla_meaning": "অস্বক্রস্তকর",
+    "synonyms": ["Uncomfortable", "Clumsy"],
+    "antonyms": ["Graceful", "Smooth"]
+},
+{
+    "main_word": "Back",
+    "bangla_meaning": "নপঠ",
+    "synonyms": ["Rear", "Reverse", "Behind"],
+    "antonyms": ["Front", "Forward", "Ahead"]
+},
+{
+    "main_word": "Bank",
+    "bangla_meaning": "বযাংক",
+    "synonyms": ["Financial Institution", "Money Lender"],
+    "antonyms": ["Individual", "Savings", "Home"]
+},
+{
+    "main_word": "Beautiful",
+    "bangla_meaning": "সুন্দর",
+    "synonyms": ["Pretty", "Gorgeous", "Attractive"],
+    "antonyms": ["Ugly", "Unattractive", "Plain"]
+},
+{
+    "main_word": "Belief",
+    "bangla_meaning": "নবশ্বাস",
+    "synonyms": ["Faith", "Conviction", "Trust"],
+    "antonyms": ["Doubt", "Skepticism", "Unbelief"]
+},
+{
+    "main_word": "Belonging",
+    "bangla_meaning": "সম্পনি",
+    "synonyms": ["Possession", "Property", "Ownership"],
+    "antonyms": ["Loss", "Theft", "Deprivation"]
+},
+{
+    "main_word": "Beloved",
+    "bangla_meaning": "নপ্রয়",
+    "synonyms": ["Dear", "Loved", "Cherished"],
+    "antonyms": ["Hated", "Disliked", "Loathed"]
+},
+{
+    "main_word": "Bench",
+    "bangla_meaning": "নবঞ্চ",
+    "synonyms": ["Seat", "Platform", "Stool"],
+    "antonyms": ["Floor", "Chair", "Stand"]
+},
+{
+    "main_word": "Best",
+    "bangla_meaning": "সুবেষ্ট",
+    "synonyms": ["Finest", "Excellent", "Superior"],
+    "antonyms": ["Worst", "Inferior", "Poor"]
+},
+{
+    "main_word": "Big",
+    "bangla_meaning": "বড়",
+    "synonyms": ["Large", "Huge", "Great"],
+    "antonyms": ["Small", "Tiny", "Miniature"]
+},
+{
+    "main_word": "Bird",
+    "bangla_meaning": "পাখি",
+    "synonyms": ["Avian", "Fowl", "Winged Creature"],
+    "antonyms": ["Mammal", "Reptile", "Insect"]
+},
+{
+    "main_word": "Birth",
+    "bangla_meaning": "জন্ম",
+    "synonyms": ["Birth", "Emergence", "Beginning"],
+    "antonyms": ["Death", "End", "Demise"]
+},
+{
+    "main_word": "Birthday",
+    "bangla_meaning": "জন্মনদি",
+    "synonyms": ["Anniversary", "Natal Day", "Festive Day"],
+    "antonyms": ["Death Anniversary", "Funeral"]
+},
+{
+    "main_word": "Bite",
+    "bangla_meaning": "কামড়",
+    "synonyms": ["Chew", "Nibble", "Gnaw"],
+    "antonyms": ["Lick", "Sip", "Swallow"]
+},
+{
+    "main_word": "Bitterness",
+    "bangla_meaning": "নতক্ততা",
+    "synonyms": ["Bitterness", "Resentment", "Anger"],
+    "antonyms": ["Sweetness", "Contentment", "Happiness"]
+},
+{
+    "main_word": "Black",
+    "bangla_meaning": "কায়লা",
+    "synonyms": ["Dark", "Ebony", "Pitch-Black"],
+    "antonyms": ["White", "Light", "Bright"]
+},
+{
+    "main_word": "Bleed",
+    "bangla_meaning": "রক্তক্ষরণ",
+    "synonyms": ["Hemorrhage", "Bleed", "Flow"],
+    "antonyms": ["Heal", "Clot", "Coagulate"]
+},
+{
+    "main_word": "Blessing",
+    "bangla_meaning": "আশীব কাদ",
+    "synonyms": ["Benediction", "Boon", "Divine Favor"],
+    "antonyms": ["Curse", "Malediction", "Calamity"]
+},
+{
+    "main_word": "Blind",
+    "bangla_meaning": "অন্ধ",
+    "synonyms": ["Sightless", "Unseeing", "Visually Impaired"],
+    "antonyms": ["Seeing", "Sighted", "Visually Able"]
+},
+{
+    "main_word": "Block",
+    "bangla_meaning": "বাধা",
+    "synonyms": ["Obstruct", "Hinder", "Impediment"],
+    "antonyms": ["Allow", "Facilitate", "Pass"]
+},
+{
+    "main_word": "Blow",
+    "bangla_meaning": "আ াত",
+    "synonyms": ["Strike", "Hit", "Impact"],
+    "antonyms": ["Miss", "Dodge", "Evade"]
+},
+{
+    "main_word": "Bold",
+    "bangla_meaning": "সাহসী",
+    "synonyms": ["Courageous", "Brave", "Daring"],
+    "antonyms": ["Timid", "Fearful", "Cowardly"]
+},
+{
+    "main_word": "Book",
+    "bangla_meaning": "বই",
+    "synonyms": ["Publication", "Tome", "Volume"],
+    "antonyms": ["Magazine", "Pamphlet", "Brochure"]
+},
+{
+    "main_word": "Bottle",
+    "bangla_meaning": "নবাতল",
+    "synonyms": ["Container", "Flask", "Vessel"],
+    "antonyms": ["Cup", "Glass", "Mug"]
+},
+{
+    "main_word": "Boy",
+    "bangla_meaning": "নেয়ল",
+    "synonyms": ["Male Child", "Lad", "Youth"],
+    "antonyms": ["Girl", "Woman", "Female"]
+},
+{
+    "main_word": "Bread",
+    "bangla_meaning": "রুটি",
+    "synonyms": ["Loaf", "Baked Good", "Staple Food"],
+    "antonyms": ["Rice", "Pasta", "Noodles"]
+},
+{
+    "main_word": "Break",
+    "bangla_meaning": "ভ্াঙ্গা",
+    "synonyms": ["Fracture", "Crack", "Shatter"],
+    "antonyms": ["Fix", "Repair", "Mend"]
+},
+{
+    "main_word": "Breath",
+    "bangla_meaning": "শ্বাস",
+    "synonyms": ["Respiration", "Gasp", "Air"],
+    "antonyms": ["Exhale", "Asphyxiate", "Die"]
+},
+{
+    "main_word": "Bridge",
+    "bangla_meaning": "নসতু",
+    "synonyms": ["Span", "Crossing", "Connection"],
+    "antonyms": ["Divide", "Gap", "Barrier"]
+},
+{
+    "main_word": "Bright",
+    "bangla_meaning": "উজ্জ্বল",
+    "synonyms": ["Light", "Brilliant", "Dazzling"],
+    "antonyms": ["Dim", "Dark", "Dull"]
+},
+{
+    "main_word": "Build",
+    "bangla_meaning": "নিম কাণ করা",
+    "synonyms": ["Construct", "Erect", "Create"],
+    "antonyms": ["Demolish", "Destroy", "Dismantle"]
+},
+{
+    "main_word": "Business",
+    "bangla_meaning": "বযবসা",
+    "synonyms": ["Trade", "Commerce", "Occupation"],
+    "antonyms": ["Leisure", "Hobby", "Pleasure"]
+},
+{
+    "main_word": "Buy",
+    "bangla_meaning": "নকিা",
+    "synonyms": ["Purchase", "Acquire", "Obtain"],
+    "antonyms": ["Sell", "Dispense", "Dispose"]
+},
+{
+    "main_word": "Canteen",
+    "bangla_meaning": "কযানিি",
+    "synonyms": ["Cafeteria", "Dining hall"],
+    "antonyms": ["Restaurant", "Takeaway"]
+},
+{
+    "main_word": "Capsule",
+    "bangla_meaning": "কযাপসুল",
+    "synonyms": ["Pill", "Container"],
+    "antonyms": ["Capsule (clothing)", "Shell"]
+},
+{
+    "main_word": "Capture",
+    "bangla_meaning": "আিক করা",
+    "synonyms": ["Seize", "Catch"],
+    "antonyms": ["Release", "Lose"]
+},
+{
+    "main_word": "Care",
+    "bangla_meaning": "যত্ন",
+    "synonyms": ["Attention", "Concern"],
+    "antonyms": ["Neglect", "Indifference"]
+},
+{
+    "main_word": "Career",
+    "bangla_meaning": "নপশা",
+    "synonyms": ["Profession", "Occupation"],
+    "antonyms": ["Hobby", "Pastime"]
+},
+{
+    "main_word": "Carriage",
+    "bangla_meaning": "গানড়",
+    "synonyms": ["Wagon", "Cart"],
+    "antonyms": ["Automobile", "Truck"]
+},
+{
+    "main_word": "Cascade",
+    "bangla_meaning": "ঝণ কা",
+    "synonyms": ["Waterfall", "Cascade"],
+    "antonyms": ["Stream", "Trickle"]
+},
+{
+    "main_word": "Casual",
+    "bangla_meaning": "আিুষ্ঠানিক িয়",
+    "synonyms": ["Informal", "Relaxed"],
+    "antonyms": ["Formal", "Dressed-up"]
+},
+{
+    "main_word": "Catastrophe",
+    "bangla_meaning": "নবপয কয়",
+    "synonyms": ["Disaster", "Calamity"],
+    "antonyms": ["Success", "Triumph"]
+},
+{
+    "main_word": "Ceiling",
+    "bangla_meaning": "োদ",
+    "synonyms": ["Roof", "Limit"],
+    "antonyms": ["Floor", "Bottom"]
+},
+{
+    "main_word": "Celebrity",
+    "bangla_meaning": "নবিযাত বযক্রক্ত",
+    "synonyms": ["Famous person", "Star"],
+    "antonyms": ["Unknown person", "Commoner"]
+},
+{
+    "main_word": "Cement",
+    "bangla_meaning": "নসয়মি",
+    "synonyms": ["Concrete", "Mortar"],
+    "antonyms": ["Sand", "Gravel"]
+},
+{
+    "main_word": "Center",
+    "bangla_meaning": "নকন্দ্র",
+    "synonyms": ["Middle", "Heart"],
+    "antonyms": ["Edge", "Periphery"]
+},
+{
+    "main_word": "Ceremony",
+    "bangla_meaning": "অিুষ্ঠাি",
+    "synonyms": ["Ritual", "Celebration"],
+    "antonyms": ["Everyday occasion", "Routine"]
+},
+{
+    "main_word": "Certain",
+    "bangla_meaning": "নিক্রিত",
+    "synonyms": ["Sure", "Definite"],
+    "antonyms": ["Uncertain", "Doubtful"]
+},
+{
+    "main_word": "Challenge",
+    "bangla_meaning": "চযায়লঞ্জ",
+    "synonyms": ["Difficulty", "Obstacle"],
+    "antonyms": ["Opportunity", "Ease"]
+},
+{
+    "main_word": "Champion",
+    "bangla_meaning": "চযাম্পম্পয়ি",
+    "synonyms": ["Winner", "Hero"],
+    "antonyms": ["Loser", "Villain"]
+},
+{
+    "main_word": "Chance",
+    "bangla_meaning": "সুয়যাগ",
+    "synonyms": ["Opportunity", "Possibility"],
+    "antonyms": ["Obstacle", "Impossibility"]
+},
+{
+    "main_word": "Change",
+    "bangla_meaning": "পনরবতকি",
+    "synonyms": ["Transform", "Alter"],
+    "antonyms": ["Remain the same", "Stay constant"]
+},
+{
+    "main_word": "Chapter",
+    "bangla_meaning": "অধযায়",
+    "synonyms": ["Section", "Division"],
+    "antonyms": ["Whole book", "Entire work"]
+},
+{
+    "main_word": "Character",
+    "bangla_meaning": "চনরত্র",
+    "synonyms": ["Personality", "Nature"],
+    "antonyms": ["Disguise", "Facade"]
+},
+{
+    "main_word": "Charm",
+    "bangla_meaning": "কমিীয়তা",
+    "synonyms": ["Allure", "Attractiveness"],
+    "antonyms": ["Repulsiveness", "Ugliness"]
+},
+{
+    "main_word": "Cheap",
+    "bangla_meaning": "সস্তা",
+    "synonyms": ["Inexpensive", "Affordable"],
+    "antonyms": ["Expensive", "Costly"]
+},
+{
+    "main_word": "Cheerful",
+    "bangla_meaning": "আিক্রন্দত",
+    "synonyms": ["Happy", "Joyful"],
+    "antonyms": ["Sad", "Depressed"]
+},
+{
+    "main_word": "Chemist",
+    "bangla_meaning": "রসায়িনবদ",
+    "synonyms": ["Scientist", "Pharmacist"],
+    "antonyms": ["Physicist", "Biologist"]
+},
+{
+    "main_word": "Chest",
+    "bangla_meaning": "বুক",
+    "synonyms": ["Thorax", "Torso"],
+    "antonyms": ["Back", "Legs"]
+},
+{
+    "main_word": "Child",
+    "bangla_meaning": "নশশু",
+    "synonyms": ["Offspring", "Kid"],
+    "antonyms": ["Adult", "Grown-up"]
+},
+{
+    "main_word": "Choice",
+    "bangla_meaning": "পেন্দ",
+    "synonyms": ["Selection", "Option"],
+    "antonyms": ["No choice", "Obligation"]
+},
+{
+    "main_word": "Church",
+    "bangla_meaning": "নগজকা",
+    "synonyms": ["Place of worship"],
+    "antonyms": ["Mosque", "Temple"]
+},
+{
+    "main_word": "Circle",
+    "bangla_meaning": "বৃি",
+    "synonyms": ["Sphere", "Ring"],
+    "antonyms": ["Line", "Angle"]
+},
+{
+    "main_word": "Citizen",
+    "bangla_meaning": "িাগনরক",
+    "synonyms": ["Civilian", "Resident"],
+    "antonyms": ["Alien", "Foreigner"]
+},
+{
+    "main_word": "Class",
+    "bangla_meaning": "নেণী",
+    "synonyms": ["Category", "Group"],
+    "antonyms": ["Individual", "Unique"]
+},
+{
+    "main_word": "Climate",
+    "bangla_meaning": "জলবায়ু",
+    "synonyms": ["Weather conditions", "Environment"],
+    "antonyms": ["Specific weather event", "Short-term"]
+},
+{
+    "main_word": "Climb",
+    "bangla_meaning": "আয়রাহণ",
+    "synonyms": ["Ascend", "Rise"],
+    "antonyms": ["Descend", "Fall"]
+},
+{
+    "main_word": "Close",
+    "bangla_meaning": "নিকিবতী",
+    "synonyms": ["Near", "Shut"],
+    "antonyms": ["Far", "Open"]
+},
+{
+    "main_word": "Cloud",
+    "bangla_meaning": "নম",
+    "synonyms": ["Cumulus", "Nimbus"],
+    "antonyms": ["Clear sky", "Sunshine"]
+},
+{
+    "main_word": "Clown",
+    "bangla_meaning": "নবদষূ ক",
+    "synonyms": ["Entertainer", "Comedian"],
+    "antonyms": ["Serious person", "Professional"]
+},
+{
+    "main_word": "Coach",
+    "bangla_meaning": "প্রনশক্ষক",
+    "synonyms": ["Trainer", "Mentor"],
+    "antonyms": ["Student", "Trainee"]
+},
+{
+    "main_word": "Coast",
+    "bangla_meaning": "উপকূ ল",
+    "synonyms": ["Shoreline", "Seashore"],
+    "antonyms": ["Inland", "Central"]
+},
+{
+    "main_word": "Code",
+    "bangla_meaning": "নকাড",
+    "synonyms": ["Cipher", "Secret language"],
+    "antonyms": ["Plain text", "Openness"]
+},
+{
+    "main_word": "Coffee",
+    "bangla_meaning": "কনফ",
+    "synonyms": ["Beverage", "Stimulant"],
+    "antonyms": ["Tea", "Water"]
+},
+{
+    "main_word": "Coin",
+    "bangla_meaning": "মুদ্রা",
+    "synonyms": ["Currency", "Money"],
+    "antonyms": ["Bill", "Note"]
+},
+{
+    "main_word": "Cold",
+    "bangla_meaning": "ঠান্ডা",
+    "synonyms": ["Chilly", "Frigid"],
+    "antonyms": ["Warm", "Hot"]
+},
+{
+    "main_word": "Colon",
+    "bangla_meaning": "নকালি",
+    "synonyms": ["Punctuation mark"],
+    "antonyms": ["Period", "Comma"]
+},
+{
+    "main_word": "Color",
+    "bangla_meaning": "রঙ",
+    "synonyms": ["Hue", "Shade"],
+    "antonyms": ["Black and white", "Monochrome"]
+},
+{
+    "main_word": "Column",
+    "bangla_meaning": "কলাম",
+    "synonyms": ["Pillar", "Post"],
+    "antonyms": ["Beam", "Row"]
+},
+{
+    "main_word": "Comfort",
+    "bangla_meaning": "আরাম",
+    "synonyms": ["Ease", "Well-being"],
+    "antonyms": ["Discomfort", "Pain"]
+},
+{
+    "main_word": "Command",
+    "bangla_meaning": "আয়দশ",
+    "synonyms": ["Order", "Instruction"],
+    "antonyms": ["Request", "Suggestion"]
+},
+{
+    "main_word": "Common",
+    "bangla_meaning": "সাধারণ",
+    "synonyms": ["Usual", "Ordinary"],
+    "antonyms": ["Rare", "Unusual"]
+},
+{
+    "main_word": "Company",
+    "bangla_meaning": "সংস্থা",
+    "synonyms": ["Business", "Organization"],
+    "antonyms": ["Solitude", "Isolation"]
+},
+{
+    "main_word": "Daffodil",
+    "bangla_meaning": "ডযায়ফানডল (pushpobrikkho)",
+    "synonyms": ["Narcissus", "Jonquil"],
+    "antonyms": ["None"]
+},
+{
+    "main_word": "Dainty",
+    "bangla_meaning": "সুকু মার (delicate)",
+    "synonyms": ["Delicate", "Fragile", "Dainty"],
+    "antonyms": ["Coarse", "Rough", "Sturdy"]
+},
+{
+    "main_word": "Damp",
+    "bangla_meaning": "আদ্রক(ardo)",
+    "synonyms": ["Moist", "Wet", "Humid"],
+    "antonyms": ["Dry", "Arid", "Parched"]
+},
+{
+    "main_word": "Danger",
+    "bangla_meaning": "নবপদ (bippod)",
+    "synonyms": ["Peril", "Risk", "Hazard"],
+    "antonyms": ["Safety", "Security", "Protection"]
+},
+{
+    "main_word": "Dare",
+    "bangla_meaning": "সাহস করা (shohos kora)",
+    "synonyms": ["Venture", "Challenge", "Defy"],
+    "antonyms": ["Cower", "Shrink", "Hesitate"]
+},
+{
+    "main_word": "Dark",
+    "bangla_meaning": "অন্ধকার (ondhokar)",
+    "synonyms": ["Black", "Dim", "Obscure"],
+    "antonyms": ["Light", "Bright", "Illuminated"]
+},
+{
+    "main_word": "Darling",
+    "bangla_meaning": "নপ্রয়জি (priyajan)",
+    "synonyms": ["Sweetheart", "Love", "Darling"],
+    "antonyms": ["Enemy", "Foe", "Adversary"]
+},
+{
+    "main_word": "Dash",
+    "bangla_meaning": "ধাক্কা (dhaakka)",
+    "synonyms": ["Rush", "Burst", "Dart"],
+    "antonyms": ["Stroll", "Saunter", "Amble"]
+},
+{
+    "main_word": "Dazzling",
+    "bangla_meaning": "চাকনচকযময় (chakchikkhyomoy)",
+    "synonyms": ["Brilliant", "Dazzling", "Radiant"],
+    "antonyms": ["Dull", "Dim", "Lackluster"]
+},
+{
+    "main_word": "Dead",
+    "bangla_meaning": "মৃত (mrito)",
+    "synonyms": ["Deceased", "Lifeless", "Inert"],
+    "antonyms": ["Alive", "Living", "Vibrant"]
+},
+{
+    "main_word": "Deaf",
+    "bangla_meaning": "বনধর (bodhir)",
+    "synonyms": ["Unable to hear", "Deaf"],
+    "antonyms": ["Hearing", "Able-to-hear", "Auditory"]
+},
+{
+    "main_word": "Deal",
+    "bangla_meaning": "চুক্রক্ত (chukti)",
+    "synonyms": ["Agreement", "Transaction", "Bargain"],
+    "antonyms": ["Disagreement", "Dispute"]
+},
+{
+    "main_word": "Dear",
+    "bangla_meaning": "নপ্রয় (priyo)",
+    "synonyms": ["Beloved", "Cherished", "Dear"],
+    "antonyms": ["Unloved", "Hated", "Disliked"]
+},
+{
+    "main_word": "Debate",
+    "bangla_meaning": "নবতকক(bitorko)",
+    "synonyms": ["Discussion", "Argument", "Debate"],
+    "antonyms": ["Agreement", "Consensus", "Harmony"]
+},
+{
+    "main_word": "Debt",
+    "bangla_meaning": "ঋণ (rin)",
+    "synonyms": ["Loan", "Liability", "Obligation"],
+    "antonyms": ["Credit", "Asset", "Wealth"]
+},
+{
+    "main_word": "Decay",
+    "bangla_meaning": "পচি (pochon)",
+    "synonyms": ["Decompose", "Rot", "Deteriorate"],
+    "antonyms": ["Grow", "Flourish", "Develop"]
+},
+{
+    "main_word": "Decent",
+    "bangla_meaning": "শালীি (shalin)",
+    "synonyms": ["Respectable", "Proper", "Decent"],
+    "antonyms": ["Indecent", "Improper", "Rude"]
+},
+{
+    "main_word": "Decide",
+    "bangla_meaning": "নসদ্ধান্ত নিওয়া (shiddhanto neoya)",
+    "synonyms": ["Resolve", "Determine", "Decide"],
+    "antonyms": ["Waver", "Hesitate", "Indecision"]
+},
+{
+    "main_word": "Declare",
+    "bangla_meaning": "ন াষণা করা (ghoshona kora)",
+    "synonyms": ["Announce", "Proclaim", "Declare"],
+    "antonyms": ["Conceal", "Hide", "Suppress"]
+},
+{
+    "main_word": "Decorate",
+    "bangla_meaning": "সাজায়িা (sajano)",
+    "synonyms": ["Adorn", "Embellish", "Decorate"],
+    "antonyms": ["Strip", "Denude", "Bare"]
+},
+{
+    "main_word": "Decrease",
+    "bangla_meaning": "হ্রাস (hras)",
+    "synonyms": ["Reduce", "Diminish", "Decrease"],
+    "antonyms": ["Increase", "Augment", "Amplify"]
+},
+{
+    "main_word": "Deep",
+    "bangla_meaning": "গভ্ীর (ghobir)",
+    "synonyms": ["Profound", "Intense", "Deep"],
+    "antonyms": ["Shallow", "Superficial", "Flimsy"]
+},
+{
+    "main_word": "Defeat",
+    "bangla_meaning": "পরাজয় (porajoy)",
+    "synonyms": ["Defeat", "Conquer", "Vanquish"],
+    "antonyms": ["Victory", "Triumph", "Conquest"]
+},
+{
+    "main_word": "Defend",
+    "bangla_meaning": "রক্ষা করা (rokkha kora)",
+    "synonyms": ["Protect", "Shield", "Defend"],
+    "antonyms": ["Attack", "Assault", "Invade"]
+},
+{
+    "main_word": "Defer",
+    "bangla_meaning": "মুলতু নব করা (multobi kora)",
+    "synonyms": ["Postpone", "Delay", "Defer"],
+    "antonyms": ["Advance", "Expedite", "Accelerate"]
+},
+{
+    "main_word": "Define",
+    "bangla_meaning": "সংজ্ঞানয়ত করুি (shongjanayit kor)",
+    "synonyms": ["Explain", "Clarify", "Define"],
+    "antonyms": ["Obscure", "Confuse", "Obfuscate"]
+},
+{
+    "main_word": "Degree",
+    "bangla_meaning": "নডগ্রী (digri)",
+    "synonyms": ["Extent", "Level", "Degree"],
+    "antonyms": ["Insignificance", "Triviality", "Minor"]
+},
+{
+    "main_word": "Delight",
+    "bangla_meaning": "আিন্দ (anondo)",
+    "synonyms": ["Joy", "Pleasure", "Delight"],
+    "antonyms": ["Sorrow", "Sadness", "Grief"]
+},
+{
+    "main_word": "Deliver",
+    "bangla_meaning": "সরবরাহ করা (soroborah kora)",
+    "synonyms": ["Convey", "Transport", "Deliver"],
+    "antonyms": ["Withhold", "Retain", "Deny"]
+},
+{
+    "main_word": "Demand",
+    "bangla_meaning": "চানহদা (chahida)",
+    "synonyms": ["Necessity", "Requirement", "Demand"],
+    "antonyms": ["Abundance", "Supply", "Surplus"]
+},
+{
+    "main_word": "Denial",
+    "bangla_meaning": "অস্বীকার (oswikar)",
+    "synonyms": ["Refusal", "Negation", "Denial"],
+    "antonyms": ["Affirmation", "Confirmation", "Acceptance"]
+},
+{
+    "main_word": "Depart",
+    "bangla_meaning": "চয়ল যাওয়া (chole jaowa)",
+    "synonyms": ["Leave", "Quit", "Depart"],
+    "antonyms": ["Arrive", "Reach", "Enter"]
+},
+{
+    "main_word": "Depict",
+    "bangla_meaning": "নচক্রত্রত করা (chitirito kora)",
+    "synonyms": ["Portray", "Describe", "Depict"],
+    "antonyms": ["Obfuscate", "Distort", "Obscure"]
+},
+{
+    "main_word": "Deplorable",
+    "bangla_meaning": "নিন্দিীয় (nindoniyo)",
+    "synonyms": ["Deplorable", "Lamentable", "Wretched"],
+    "antonyms": ["Praiseworthy", "Commendable", "Admirable"]
+},
+{
+    "main_word": "Depreciate",
+    "bangla_meaning": "হ্রাস পাওয়া (hras pawa)",
+    "synonyms": ["Decrease", "Decline", "Depreciate"],
+    "antonyms": ["Appreciate", "Increase"]
+},
+{
+    "main_word": "Eager",
+    "bangla_meaning": "আগ্রহী (agrohi)",
+    "synonyms": ["Enthusiastic", "Excited"],
+    "antonyms": ["Indifferent", "Apathetic"]
+},
+{
+    "main_word": "Eerie",
+    "bangla_meaning": "ভ্ীনতকর (bhoyonotokor)",
+    "synonyms": ["Creepy", "Spooky"],
+    "antonyms": ["Cheerful", "Bright"]
+},
+{
+    "main_word": "Effective",
+    "bangla_meaning": "কায ককর (kaj kor)",
+    "synonyms": ["Efficient", "Successful"],
+    "antonyms": ["Ineffective", "Useless"]
+},
+{
+    "main_word": "Effort",
+    "bangla_meaning": "প্রয়চষ্টা (prayashchita)",
+    "synonyms": ["Endeavor", "Attempt"],
+    "antonyms": ["Inaction", "Laziness"]
+},
+{
+    "main_word": "Ego",
+    "bangla_meaning": "অহংকার (ohongkar)",
+    "synonyms": ["Self-importance", "Arrogance"],
+    "antonyms": ["Humility", "Modesty"]
+},
+{
+    "main_word": "Elicit",
+    "bangla_meaning": "উদ্ঘাটিত করা (udghatito kora)",
+    "synonyms": ["Draw out", "Evoke"],
+    "antonyms": ["Conceal", "Suppress"]
+},
+{
+    "main_word": "Eloquent",
+    "bangla_meaning": "সুবক্ত (subokto)",
+    "synonyms": ["Fluent", "Persuasive"],
+    "antonyms": ["Ineloquent", "Stammering"]
+},
+{
+    "main_word": "Elusive",
+    "bangla_meaning": "ধরায়োোঁয়া যায় িা এমি (dhorayochhoiyo jaoya na emni)",
+    "synonyms": ["Difficult to grasp", "Elusive"],
+    "antonyms": ["Obvious", "Clear"]
+},
+{
+    "main_word": "Embarrass",
+    "bangla_meaning": "লজ্জা নদওয়া (lojja dowa)",
+    "synonyms": ["Shame", "Humiliate"],
+    "antonyms": ["Comfort", "Encourage"]
+},
+{
+    "main_word": "Embellish",
+    "bangla_meaning": "সুয়শানভ্ত করা",
+    "synonyms": ["Decorate", "Enhance"],
+    "antonyms": ["Strip down", "Simplify"]
+},
+{
+    "main_word": "Eminent",
+    "bangla_meaning": "নবিযাত",
+    "synonyms": ["Distinguished", "Prominent"],
+    "antonyms": ["Obscure", "Unknown"]
+},
+{
+    "main_word": "Emotive",
+    "bangla_meaning": "আয়বগপূণ ক",
+    "synonyms": ["Emotional", "Affecting"],
+    "antonyms": ["Unemotional", "Neutral"]
+},
+{
+    "main_word": "Empathetic",
+    "bangla_meaning": "সহািুভ্ূনতশীল",
+    "synonyms": ["Understanding", "Compassionate"],
+    "antonyms": ["Unfeeling", "Callous"]
+},
+{
+    "main_word": "Empathy",
+    "bangla_meaning": "সহািুভ্ূনত",
+    "synonyms": ["Compassion", "Understanding"],
+    "antonyms": ["Apathy", "Indifference"]
+},
+{
+    "main_word": "Emphatic",
+    "bangla_meaning": "নজারায়লা",
+    "synonyms": ["Strong", "Forceful"],
+    "antonyms": ["Weak", "Muted"]
+},
+{
+    "main_word": "Empty",
+    "bangla_meaning": "শূিয",
+    "synonyms": ["Vacant", "Devoid"],
+    "antonyms": ["Full", "Abundant"]
+},
+{
+    "main_word": "Enchant",
+    "bangla_meaning": "মুগ্ধ করা",
+    "synonyms": ["Charm", "Delight"],
+    "antonyms": ["Repel", "Disgust"]
+},
+{
+    "main_word": "Endeavor",
+    "bangla_meaning": "নচষ্টা",
+    "synonyms": ["Effort", "Attempt"],
+    "antonyms": ["Inaction", "Sloth"]
+},
+{
+    "main_word": "Endemic",
+    "bangla_meaning": "স্থািীয়",
+    "synonyms": ["Native", "Peculiar to a region"],
+    "antonyms": ["Foreign", "Imported"]
+},
+{
+    "main_word": "Enervate",
+    "bangla_meaning": "দুব কল করা",
+    "synonyms": ["Weaken", "Deplete"],
+    "antonyms": ["Strengthen", "Invigorate"]
+},
+{
+    "main_word": "Enigma",
+    "bangla_meaning": "রহসয",
+    "synonyms": ["Mystery", "Puzzle"],
+    "antonyms": ["Explanation", "Clarity"]
+},
+{
+    "main_word": "Enmity",
+    "bangla_meaning": "শত্রুতা",
+    "synonyms": ["Hostility", "Animosity"],
+    "antonyms": ["Friendship", "Amity"]
+},
+{
+    "main_word": "Enormous",
+    "bangla_meaning": "নবশাল",
+    "synonyms": ["Huge", "Immense"],
+    "antonyms": ["Small", "Tiny"]
+},
+{
+    "main_word": "Enthrall",
+    "bangla_meaning": "মুগ্ধ করা",
+    "synonyms": ["Captivate", "Enchant"],
+    "antonyms": ["Bore", "Repel"]
+},
+{
+    "main_word": "Entreat",
+    "bangla_meaning": "অিুয়রাধ করা",
+    "synonyms": ["Beg", "Plead"],
+    "antonyms": ["Command", "Demand"]
+},
+{
+    "main_word": "Epidemic",
+    "bangla_meaning": "মহামারী",
+    "synonyms": ["Widespread disease", "Outbreak"],
+    "antonyms": ["Isolated case", "Healthy"]
+},
+{
+    "main_word": "Eradicate",
+    "bangla_meaning": "নিমূ কল করা",
+    "synonyms": ["Eliminate", "Wipe out"],
+    "antonyms": ["Cultivate", "Promote"]
+},
+{
+    "main_word": "Erudite",
+    "bangla_meaning": "নবোি",
+    "synonyms": ["Learned", "Scholarly"],
+    "antonyms": ["Ignorant", "Uneducated"]
+},
+{
+    "main_word": "Esoteric",
+    "bangla_meaning": "অতযাধুনিক",
+    "synonyms": ["Obscure", "Difficult to understand"],
+    "antonyms": ["Commonplace", "Simple"]
+},
+{
+    "main_word": "Esteem",
+    "bangla_meaning": "সম্মাি",
+    "synonyms": ["Respect", "Admiration"],
+    "antonyms": ["Contempt", "Disdain"]
+},
+{
+    "main_word": "Eternal",
+    "bangla_meaning": "নচরন্তি",
+    "synonyms": ["Everlasting", "Timeless"],
+    "antonyms": ["Temporary", "Fleeting"]
+},
+{
+    "main_word": "Ethical",
+    "bangla_meaning": "নিনতক",
+    "synonyms": ["Moral", "Right"],
+    "antonyms": ["Unethical", "Wrong"]
+},
+{
+    "main_word": "Ethereal",
+    "bangla_meaning": "অয়লৌনকক",
+    "synonyms": ["Delicate", "Heavenly"],
+    "antonyms": ["Earthly", "Mundane"]
+},
+{
+    "main_word": "Euphoria",
+    "bangla_meaning": "আিয়ন্দাচ্ছ্বাস",
+    "synonyms": ["Extreme happiness", "Bliss"],
+    "antonyms": ["Despair", "Sadness"]
+},
+{
+    "main_word": "Evasive",
+    "bangla_meaning": "התחמקות",
+    "synonyms": ["Avoiding", "Elusive"],
+    "antonyms": ["Direct", "Straightforward"]
+},
+{
+    "main_word": "Evict",
+    "bangla_meaning": "উয়েদ করা",
+    "synonyms": ["Expel", "Force out"],
+    "antonyms": ["Welcome", "Accept"]
+},
+{
+    "main_word": "Exacerbate",
+    "bangla_meaning": "বানড়য়য় নতালা",
+    "synonyms": ["Worsen", "Aggravate"],
+    "antonyms": ["Improve", "Alleviate"]
+},
+{
+    "main_word": "Exalted",
+    "bangla_meaning": "উচ্চাঙ্গ",
+    "synonyms": ["Elevated", "Noble"],
+    "antonyms": ["Lowly", "Base"]
+},
+{
+    "main_word": "Exasperate",
+    "bangla_meaning": "নবরক্ত করা",
+    "synonyms": ["Irritate", "Exasperate"],
+    "antonyms": ["Calm", "Soothe"]
+},
+{
+    "main_word": "Exceed",
+    "bangla_meaning": "অনতিম করা",
+    "synonyms": ["Surpass", "Go beyond"],
+    "antonyms": ["Fall short of", "Fail"]
+},
+{
+    "main_word": "Excelsior",
+    "bangla_meaning": "আয়রা উপয়র",
+    "synonyms": ["Higher", "Better"],
+    "antonyms": ["Lower", "Worse"]
+},
+{
+    "main_word": "Exhilarate",
+    "bangla_meaning": "উল্লনসত করা",
+    "synonyms": ["Excite", "Energize"],
+    "antonyms": ["Depress", "Discourage"]
+},
 
 ]
 
