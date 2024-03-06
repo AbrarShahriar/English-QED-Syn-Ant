@@ -3,7 +3,7 @@ import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll } f
 import data from "././data.js"
 import "./common.js"
 
-
+console.log(data.length)
 let questionCount = 0
 
 renderQuestion()
