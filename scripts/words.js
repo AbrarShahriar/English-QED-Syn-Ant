@@ -1,34 +1,46 @@
 import data from "././data.js"
 import WordCard from "././WordCard.js"
 import { select } from "././util.js"
+import Pagination from "./Pagination.js"
 import "./common.js"
 
 const wordPage = select(".words_page")
-const loadMore = select(".load")
+const goto = select(".goto")
+const pages = select(".pages")
+
+const url = new URL(window.location.href)
+
+const searchParams = new URLSearchParams(url.search);
+
+let curPageNumber = parseInt(searchParams.get("page"))
+// console.log("curPageNumber", curPageNumber, "page query", searchParams.get("page"))
 
 let custom = 0
-
-let start = 0 + custom
-let end = 10 + custom
-let indexOffset = 0
 let offset = 10
 
+let start = !curPageNumber ? 0 : (curPageNumber-1)*offset
+let end = !curPageNumber ? offset-1 : (curPageNumber-1)*offset + offset - 1
+let indexOffset = 0
+
+// console.log("start", start, "end", end)
+
+let pageNumber = Math.ceil(data.length/offset)
+// console.log(pageNumber)
+let pageNumberArr = []
+
 data.slice(start, end).forEach((word, i) => {
-  wordPage.innerHTML += WordCard(word, i+1+custom)
+  wordPage.innerHTML += WordCard(word)
 })
 
-loadMore.addEventListener("click", e => {
+pages.append(Pagination({
+  totalPageNumbers: pageNumber,
+  url,
+  curPageNumber
+}))
+
+goto.addEventListener("click", e => {
   e.preventDefault()
   
-  start += offset
-  end += offset
-  indexOffset += offset
-  
-  data.slice(start, end).forEach((word, i) => {
-    wordPage.innerHTML += WordCard(word, i+1+custom+indexOffset)
-    
-    if(end >= data.length) {
-      loadMore.disabled = true
-    }
-  })
+  url.searchParams.set('page', select(".goto-input").value);
+  window.location.href = `${url}`
 })

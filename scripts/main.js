@@ -3,6 +3,8 @@ import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll } f
 import data from "././data.js"
 import "./common.js"
 
+
+
 console.log(data.length)
 let questionCount = 0
 
@@ -30,3 +32,39 @@ function renderQuestion() {
   QuizOption(newQuestion.options, newQuestion.commons, questionCount)
   
 }
+
+function search(arr, n, x)
+
+    {
+
+           
+
+        // Start searching from both ends
+
+        let front = 0, back = n - 1;
+
+       
+
+        // Keep searching while two indexes
+
+        // do not cross.
+
+        while (front <= back)
+
+        {
+
+            if (arr[front] == x || arr[back] == x)
+
+                return true;
+
+            front++;
+
+            back--;
+
+        }
+
+           
+
+        return false;
+
+    }

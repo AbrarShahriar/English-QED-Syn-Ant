@@ -8,6 +8,7 @@ const nav = select("nav")
 const navOpen = select(".nav-open")
 const navClose = select(".nav-close")
 
+
 window.onclick = event => {
   if (event.target == backdrop) {
     backdrop.style.display = "none";

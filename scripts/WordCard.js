@@ -3,7 +3,7 @@
 export default function WordCard(word, i) {
   let template = `
     <div class="word">
-          <p class="word-title">${i}. ${word.main_word}</p>
+          <p class="word-title">${word.main_word}</p>
           
           <div class="syn-ant">
             <div class="synonyms">
