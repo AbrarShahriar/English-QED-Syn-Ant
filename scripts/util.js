@@ -74,3 +74,32 @@ export const increaseGotRight = () => {
 export const calculateAccuracy = (questionCount) => {
     select(".accuracy").innerText = `${Math.round((getGotRight()/questionCount) * 100)}%`
 }
+export const handleLoader = action => {
+  switch (action) {
+    case 'show':
+      select(".loader_container").style.display = "block"
+      break;
+      
+    case 'hide':
+      select(".loader_container").style.display = "none"
+      break
+    
+    default:
+      return
+  }
+}
+export const Settings = {
+  setSetting: (key, value) => {
+    localStorage.setItem(key, value)
+  },
+  getSetting: (key) => {
+    let val = localStorage.getItem(key)
+    if(val == "true") {
+      return true
+    } else if (val == "false") {
+      return false
+    }
+    return val
+  },
+  resetSetting: () => localStorage.clear()
+}

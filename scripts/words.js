@@ -1,18 +1,24 @@
 import data from "././data.js"
 import WordCard from "././WordCard.js"
-import { select } from "././util.js"
+import { select, handleLoader } from "././util.js"
 import Pagination from "./Pagination.js"
 import "./common.js"
-
-const wordPage = select(".words_page")
-const goto = select(".goto")
-const pages = select(".pages")
 
 const url = new URL(window.location.href)
 
 const searchParams = new URLSearchParams(url.search);
 
 let curPageNumber = parseInt(searchParams.get("page"))
+
+if(!curPageNumber) {
+  url.searchParams.set('page', 1);
+  window.location.href = `${url}`
+}
+
+const wordPage = select(".words_page")
+const goto = select(".goto")
+const pages = select(".pages")
+
 // console.log("curPageNumber", curPageNumber, "page query", searchParams.get("page"))
 
 let custom = 0
@@ -30,6 +36,7 @@ let pageNumberArr = []
 
 data.slice(start, end).forEach((word, i) => {
   wordPage.innerHTML += WordCard(word)
+  handleLoader("hide")
 })
 
 pages.append(Pagination({

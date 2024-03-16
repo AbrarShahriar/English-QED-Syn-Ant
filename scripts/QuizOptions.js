@@ -1,10 +1,9 @@
-import { createEl, select, increaseGotRight, calculateAccuracy } from "./util.js"
+import { createEl, select, increaseGotRight, calculateAccuracy, Settings } from "./util.js"
 
 
-export default function QuizOption(generatedOptions, commons, questionCount) {
+export default function QuizOption({ generatedOptions, commons, questionCount, interval }) {
   let options = []
   let parent = select(".options")
-  
   
   for (let i = 0; i < generatedOptions.length; i++) {
     let button = createEl("button")
@@ -14,6 +13,11 @@ export default function QuizOption(generatedOptions, commons, questionCount) {
     button.innerHTML = `${generatedOptions[i].label}`
     
     button.addEventListener("click", () => {
+      
+        if(interval) {
+          clearInterval(interval)
+        }
+      
         if (!generatedOptions[i].isAnswer) {
           button.classList.add("_wrong")
           button.innerHTML = `${generatedOptions[i].label} <i class="material-icons">clear</i>`

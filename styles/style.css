@@ -13,6 +13,7 @@
   --light-blue: skyblue;
   --dark-blue: #49C0CA;
   --nav-blue: #3D3F5A;
+  --yellow: #DADB29;
 }
 
 
@@ -33,6 +34,23 @@ hr {
   background: var(--dark-green);
   padding: 5px 10px;
   border-radius: 10px;
+}
+
+.timer {
+  width: 100%;
+  height: 5px;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--dark-green), 40%, var(--yellow), var(--dark-red));
+  position: relative;
+}
+.timer_cover {
+  height: 5px;
+  width: 100%;
+  background: var(--black);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(0%);
 }
 
 .question {
