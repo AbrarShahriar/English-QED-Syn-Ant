@@ -1,6 +1,6 @@
-import data from "././data.js"
-import WordCard from "././WordCard.js"
-import { select, handleLoader } from "././util.js"
+import data from "./data.js"
+import WordCard from "./WordCard.js"
+import { select, handleLoader } from "./util.js"
 import Pagination from "./Pagination.js"
 import "./common.js"
 

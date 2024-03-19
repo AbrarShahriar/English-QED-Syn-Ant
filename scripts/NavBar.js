@@ -1,6 +1,6 @@
 import { select, createEl } from "./util.js"
 import SettingsComp from "./SettingsComp.js"
-import { links } from "./croutes.js"
+import { links } from "./routes.js"
 
 const settingsOptions = [
   {

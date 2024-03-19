@@ -1,6 +1,6 @@
-import QuizOption from "././QuizOptions.js"
-import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll, handleLoader, Settings } from "././util.js"
-import data from "././data.js"
+import QuizOption from "./QuizOptions.js"
+import { generateQuestion, select, getGotRight, calculateAccuracy, selectAll, handleLoader, Settings } from "./util.js"
+import data from "./data.js"
 import "./common.js"
 
 console.log(data.length)
@@ -51,39 +51,3 @@ function renderQuestion() {
   QuizOption({ generatedOptions: newQuestion.options, commons: newQuestion.commons, questionCount, interval })
   
 }
-
-function search(arr, n, x)
-
-    {
-
-           
-
-        // Start searching from both ends
-
-        let front = 0, back = n - 1;
-
-       
-
-        // Keep searching while two indexes
-
-        // do not cross.
-
-        while (front <= back)
-
-        {
-
-            if (arr[front] == x || arr[back] == x)
-
-                return true;
-
-            front++;
-
-            back--;
-
-        }
-
-           
-
-        return false;
-
-    }

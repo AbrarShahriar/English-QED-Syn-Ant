@@ -91,6 +91,7 @@ export const handleLoader = action => {
 export const Settings = {
   setSetting: (key, value) => {
     localStorage.setItem(key, value)
+    return value
   },
   getSetting: (key) => {
     let val = localStorage.getItem(key)

@@ -16,7 +16,7 @@ export default function SettingsComp({ type, defaultValue = false, label = "", k
       const circle = createEl("div")
       circle.classList.add("circle")
       
-      let isToggled = Settings.getSetting(key) == null ? defaultValue : Settings.getSetting(key)
+      let isToggled = Settings.getSetting(key) == null ? Settings.setSetting(key, defaultValue) : Settings.getSetting(key)
       
       
       if(isToggled) {
