@@ -5,7 +5,7 @@ let gotRight = 0
 export const createEl = el => document.createElement(el)
 export const select = el => document.querySelector(el)
 export const selectAll = selector => document.querySelectorAll(selector)
-export const random = (min=0, max=100) => Math.floor(Math.random() * max)
+export const random = (min=0, max=100) => min + Math.floor(Math.random() * max)
 export const generateQuestion = type => {
   let title = ""
   let selectedWord = data[random(0, data.length)]
@@ -102,4 +102,23 @@ export const Settings = {
     return val
   },
   resetSetting: () => localStorage.clear()
+}
+export const placeBgItems = (length = 5) => {
+  for (let i = 0; i < length; i++) {
+    let span = createEl("span")
+    span.innerText = data[random(0, data.length)].main_word
+    
+    let x = random(-100, 200)
+    let y = random(0, 100)
+    
+    let style = `rotate(90deg) translateX(${x}vh)`
+    
+    span.classList.add(`bg_text_${random(1, 5)}`)
+    span.style.transform = style
+    span.style.left = `${y}`
+    span.style.fontSize = `${random(10,14)}px`
+    
+    select(".background").append(span)
+  }
+  
 }

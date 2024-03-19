@@ -29,7 +29,7 @@
 
 body {
     font-size: 15pt;
-    
+    position: relative;
     width: 100%;
     font-family: "Rubik";
     background: var(--black);

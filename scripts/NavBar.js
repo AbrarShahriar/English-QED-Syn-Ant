@@ -1,23 +1,6 @@
 import { select, createEl } from "./util.js"
 import SettingsComp from "./SettingsComp.js"
-
-const links = [
-  {
-    label: "quiz", 
-    link: "/index.html",
-    withoutQuery: "/index.html"
-  },
-  {
-    label: "words",
-    link: "/words.html?page=1",
-    withoutQuery: "/words.html"
-  },
-  {
-    label: "flashcards",
-    link: "/flashcards.html",
-    withoutQuery: "/flashcards.html"
-  }
-]
+import { links } from "./croutes.js"
 
 const settingsOptions = [
   {
@@ -28,7 +11,7 @@ const settingsOptions = [
   }
 ]
 
-const url = new URL(window.location.href)
+const url = new URL(window.location.href) 
 
 
 export default function NavBar(navOptions = links) {

@@ -1,0 +1,161 @@
+
+:root {
+  --backdrop-black: rgba(0,0,0,0.5);
+  --black: rgb(31, 31, 31);
+  --dark-gray: rgb(71, 71, 71);
+  --light-gray: lightgray;
+  --gray: rgb(101, 101, 101);
+  --white: white;
+  --green: limegreen;
+  --dark-green: #32B05C;
+  --red: orangered;
+  --dark-red: #F9484C;
+  --light-blue: skyblue;
+  --dark-blue: #49C0CA;
+  --nav-blue: #3D3F5A;
+  --yellow: #DADB29;
+}
+
+
+hr {
+  opacity: 0.3;
+  margin: 5px 0 10px;
+}
+
+
+.counts {
+  display: flex;
+  gap: 10px;
+  place-items: center;
+  margin-left: auto;
+}
+
+.accuracy {
+  background: var(--dark-green);
+  padding: 5px 10px;
+  border-radius: 10px;
+}
+
+.timer {
+  width: 100%;
+  height: 5px;
+  overflow: hidden;
+  background: linear-gradient(90deg, var(--dark-green), 40%, var(--yellow), var(--dark-red));
+  position: relative;
+}
+.timer_cover {
+  height: 5px;
+  width: 100%;
+  background: var(--black);
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(0%);
+}
+
+.question {
+  margin: 15px 0 30px;
+  line-height: 32px;
+  color: var(--white);
+}
+
+.syn-color {
+  color: var(--green);
+}
+
+.ant-color {
+  color: var(--red);
+}
+
+.word-color {
+  color: var(--light-blue);
+}
+
+.quiz {
+  width: 90%;
+  margin: auto;
+  padding: 10px;
+  
+}
+
+.options {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.option._right {
+  background: var(--dark-green);
+}
+
+.option._wrong {
+  background: var(--dark-red);
+}
+
+.option {
+  background: var(--dark-gray);
+  padding: 15px;
+  color: white;
+  border: none;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  place-items: center;
+}
+
+.option > i {
+  font-weight: 600;
+}
+
+.action {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.next {
+  position: relative;
+  background: var(--dark-blue);
+  width: 50%;
+  border: none;
+  margin-left: 50%;
+  padding: 17px;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 10px;
+  color: white;
+}
+
+.next:disabled, .next[disabled] {
+  cursor: not-allowed;
+  pointer-events: none;
+  opacity: 0.6;
+}
+
+.helper {
+  width: 90%;
+  margin: 40px auto 50px auto;
+  color: var(--white);
+  display: flex;
+  gap: 10px;
+}
+
+.word_container {
+  background-color: var(--gray);
+  padding: 15px;
+  border-radius: 10px;
+  flex: 0.5;
+  text-transform: capitalize;
+}
+
+.word_container.hide {
+  display: none;
+}
+
+.word_container > .title {
+  font-weight: 500;
+}
+
